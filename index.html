@@ -3,14 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson_01</title>
+  <title>Lesson_05</title>
 </head>
 <body>
-  <h1>О нас</h1>
+  <h1>Добавить товар</h1>
 
-  <p>Для наших гостей мы создали <i>концептуально новое</i> <em>игровое пространство виртуальной реальности</em> в центральной части города.</p>
-  <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-  <p><blockquote><span style="text-transform: uppercase;"><b>game</b> <strong>over</strong></span> &mdash; это место незабываемых впечатлений</blockquote></p>
-  <p><blockquote><cite>Аркадий Абакшин, создатель игровой территории <span style="text-transform: uppercase;">game over</span></cite></blockquote></p>
+  <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+    <fieldset>
+      <label>Наименование <br>
+        <input type="text" name="name"> <br>
+      </label>
+
+      <label>Категория <br>
+        <input type="text" name="category"> <br>
+      </label>
+
+      <label>Единицы измерения <br>
+        <input type="text" name="inits"> <br>
+      </label>
+
+      <label>Дисконт <br>
+        <input type="checkbox">
+        <input type="text" disabled> <br>
+      </label>
+
+      <label>Описание <br>
+        <textarea name="discription" cols="20" rows="2"></textarea> <br>
+      </label>
+
+      <label>Количество <br>
+        <input type="number" name="count"> <br>
+      </label>
+
+      <label>Цена <br>
+        <input type="number" name="price"> <br> <br>
+      </label>
+
+      <input type="file" name="image">
+    </fieldset>
+    <br> 
+    <button>Добавить товар</button>
+  </form>
 </body>
 </html>
