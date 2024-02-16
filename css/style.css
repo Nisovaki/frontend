@@ -1,8 +1,32 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: #2D2D2D;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .left-arrow {
   display: inline-flex;
   position: relative;
   width: 29px;
-  height: 13px;
+  height: 15px;
   cursor: pointer;
 }
 
@@ -16,9 +40,9 @@
 .left-arrow::before {
   top: 8px;
   left: 0;
-  width: 18px;
-  height: 2px;
-  background-color: #2D2D2D;
+  width: 19px;
+  height: 3px;
+  background-color: inherit;
 }
 
 .left-arrow::after {
@@ -29,16 +53,21 @@
 
 .left-arrow::after {
   left: 0;
-  border-top: 3px solid #2D2D2D;
-  border-left: 3px solid #2D2D2D;
+  border-top: 3px solid inherit;
+  border-left: 3px solid inherit;
   transform: rotate(-45deg);
 }
 
-.left-arrow:hover::before {
-  background-color: black;
+.block {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left-arrow:hover::after {
-  border-top: 3px solid black;
-  border-left: 3px solid black;
+.link:hover {
+  color: green
+}
+
+.link:active {
+  color: aquamarine
 }
