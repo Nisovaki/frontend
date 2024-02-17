@@ -42,7 +42,7 @@ a {
   left: 0;
   width: 19px;
   height: 3px;
-  background-color: inherit;
+  background-color: #2D2D2D;
 }
 
 .left-arrow::after {
@@ -53,8 +53,8 @@ a {
 
 .left-arrow::after {
   left: 0;
-  border-top: 3px solid inherit;
-  border-left: 3px solid inherit;
+  border-top: 3px solid #2D2D2D;
+  border-left: 3px solid #2D2D2D;
   transform: rotate(-45deg);
 }
 
