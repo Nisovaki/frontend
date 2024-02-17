@@ -1,0 +1,35 @@
+.halls {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.halls-item1,
+.halls-item2,
+.halls-item3,
+.halls-item4 {
+  display: block;
+  width: 1180px;
+  height: 710px;
+  display: block;
+  padding-top: 25%;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.halls-item1 {
+  background-image: url(../img/80s_vibes.jpg);
+}
+
+.halls-item2 {
+  background-image: url(../img/star_wars.jpg);
+}
+
+.halls-item3 {
+  background-image: url(../img/wild_west.jpg);
+}
+
+.halls-item4 {
+  background-image: url(../img/neon_style.jpg);
+}
