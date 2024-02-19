@@ -1,5 +1,5 @@
 .header {
-  padding-bottom: 640px;
+  height: 780px;
 }
 
 .header-title {
@@ -10,7 +10,7 @@
   position: relative;
   line-height: 125px;
   letter-spacing: -15px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .header-title::after {
