@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  color: #2D2D2D;
+  color: #2d2d2d;
 }
 
 a {
@@ -10,19 +10,19 @@ a {
   cursor: pointer;
 }
 
-.wrapper {
+.container {
   width: 1290px;
   margin: 0 auto;
 }
 
-.title {
+.header__title {
   font-weight: 700;
   margin: 0;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-.left-arrow {
+.header__left-arrow {
   display: inline-flex;
   position: relative;
   width: 29px;
@@ -30,44 +30,44 @@ a {
   cursor: pointer;
 }
 
-.left-arrow::before,
-.left-arrow::after {
+.header__left-arrow::before,
+.header__left-arrow::after {
   display: inline-flex;
   position: absolute;
   content: "";
 }
 
-.left-arrow::before {
+.header__left-arrow::before {
   top: 8px;
   left: 0;
   width: 19px;
   height: 3px;
-  background-color: inherit;
+  background-color: #2d2d2d;
 }
 
-.left-arrow::after {
+.header__left-arrow::after {
   width: 7px;
   height: 7px;
   top: 4.7px;
 }
 
-.left-arrow::after {
+.header__left-arrow::after {
   left: 0;
-  border-top: 3px solid inherit;
-  border-left: 3px solid inherit;
+  border-top: 3px solid #2d2d2d;
+  border-left: 3px solid #2d2d2d;
   transform: rotate(-45deg);
 }
 
-.block {
+.header__block {
   padding-top: 140px;
   display: flex;
   justify-content: space-between;
 }
 
-.link:hover {
-  color: green
+.header__link:hover {
+  color: green;
 }
 
-.link:active {
-  color: aquamarine
+.header__link:active {
+  color: aquamarine;
 }
