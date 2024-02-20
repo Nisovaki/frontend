@@ -1,33 +1,33 @@
-.footer-address {
+.footer__address {
   display: flex;
   align-items: center;
   margin-bottom: 35px;
 }
 
-.footer-map {
+.footer__map {
   margin-right: 31px;
 }
 
-.footer-tube {
+.footer__tube {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
 }
 
-.footer-phone {
+.footer__phone {
   margin-right: 25px;
 }
 
-.footer-mail {
+.footer__mail {
   display: flex;
   align-items: center;
 }
 
-.footer-email {
+.footer__email {
   margin-right: 25px;
 }
 
-.footer-social {
+.footer__social {
   display: flex;
   justify-content: space-between;
   width: 280px;

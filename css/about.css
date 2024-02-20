@@ -2,36 +2,35 @@
   padding-bottom: 100px;
 }
 
-.about-author {
+.about__author {
   display: flex;
   justify-content: flex-end;
   margin-right: 60px;
 }
 
-.about-text {
+.about__text {
   padding-bottom: 30px;
 }
 
-.about-quote {
+.about__quote {
   text-transform: uppercase;
   font-size: 44px;
 }
 
-.about-marks {
+.about__marks {
   font-weight: 900;
   color: #6c0287;
 }
 
-.author-img {
+.author__img {
   width: 80px;
   height: 80px;
   border-radius: 100%;
   object-fit: cover;
   object-position: 0 -9px;
-  background-position: 10px 0;
   margin-right: 40px;
 }
 
-.about-designation {
+.about__designation {
   text-transform: uppercase;
 }

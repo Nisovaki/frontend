@@ -2,10 +2,7 @@
   padding-bottom: 50px;
 }
 
-.halls-item1,
-.halls-item2,
-.halls-item3,
-.halls-item4 {
+.halls__element {
   display: block;
   width: 1180px;
   height: 710px;
@@ -17,18 +14,18 @@
   margin-bottom: 60px;
 }
 
-.halls-item1 {
+.halls__element-image1 {
   background-image: url(../img/80s_vibes.jpg);
 }
 
-.halls-item2 {
+.halls__element-image2 {
   background-image: url(../img/star_wars.jpg);
 }
 
-.halls-item3 {
+.halls__element-image3 {
   background-image: url(../img/wild_west.jpg);
 }
 
-.halls-item4 {
+.halls__element-image4 {
   background-image: url(../img/neon_style.jpg);
 }

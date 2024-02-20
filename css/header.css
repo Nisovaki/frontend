@@ -1,10 +1,10 @@
 .header {
-  height: 812px;
+  height: 992px;
   padding-top: 80px;
-  padding-bottom: 90px;
+  padding-bottom: 100px;
 }
 
-.header-title {
+.header__title {
   text-align: left;
   margin: 0;
   font-weight: 900;
@@ -15,7 +15,7 @@
   margin-bottom: 15px;
 }
 
-.header-title::after {
+.header__title::after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -27,7 +27,7 @@
   height: 762px;
 }
 
-.header-subtitle {
+.header__subtitle {
   font-size: 28px;
   padding-left: 90px;
 }
