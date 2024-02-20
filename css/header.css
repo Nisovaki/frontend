@@ -1,5 +1,7 @@
 .header {
-  height: 780px;
+  height: 812px;
+  padding-top: 80px;
+  padding-bottom: 90px;
 }
 
 .header-title {
