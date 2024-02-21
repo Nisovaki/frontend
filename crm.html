@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"/>
+    <title>Lesson_10</title>
+    <script>
+      function agreeForm(f) {
+        if (f.check.checked) f.checktext.disabled = 0;
+        else f.checktext.disabled = 1;
+      }
+    </script>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <section class="product">
+          <h1 class="product__title">Добавить товар</h1>
+
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            method="post"
+            class="product__form"
+            id="product-form">
+            <fieldset class="product__case">
+              <label class="product__text">Наименование</label>
+              <input type="text" name="name" class="product__inp" />
+
+              <label class="product__text">Категория</label>
+              <input
+                type="text"
+                name="category"
+                class="product__inp" />
+
+              <label class="product__text">Единицы измерения</label>
+              <input
+                type="number"
+                name="unit"
+                value="unit"
+                class="product__inp" />
+
+              <label class="product__text">Дисконт</label>
+
+              <div class="product__check-block">
+                <input
+                  type="checkbox"
+                  name="check"
+                  id="check"
+                  value="yes"
+                  class="product__check"
+                  onclick="agreeForm(this.form)" />
+                <label for="check"></label>
+
+                <input
+                  type="checktext"
+                  name="checktext"
+                  class="product__inp product__inp-size"
+                  disabled />
+              </div>
+
+              <label class="product__text">Описание</label>
+              <textarea
+                value="text-area"
+                name="text-area"
+                class="product__inp product__inp-area"></textarea>
+
+              <label class="product__text">Количество</label>
+              <input
+                type="number"
+                name="quantity"
+                value="quantity"
+                class="product__inp" />
+
+              <label class="product__text">Цена</label>
+              <input
+                type="number"
+                name="price"
+                value="price"
+                class="product__inp" />
+            </fieldset>
+          </form>
+          <button
+            class="product__button"
+            formtarget="_blank"
+            form="product-form">
+            Добавить товар
+          </button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
