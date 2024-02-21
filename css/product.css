@@ -101,6 +101,7 @@
 .product__check-block {
   display: flex;
   justify-content: space-between;
+  width: 495px;
 }
 
 .product__button {
