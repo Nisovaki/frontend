@@ -86,3 +86,7 @@ iframe {
   margin: 0;
   margin-bottom: 60px;
 }
+
+blockquote {
+  margin: 0;
+}
