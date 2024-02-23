@@ -11,7 +11,14 @@
   text-align: center;
   font-size: 70px;
   font-weight: 700;
+}
+
+.halls__item {
   margin-bottom: 60px;
+}
+
+.halls__item:last-child {
+  margin-bottom: 0;
 }
 
 .halls__element-image1 {
