@@ -1,4 +1,5 @@
 .halls {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -14,16 +15,11 @@
 }
 
 .halls__item {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.halls__item:first-child {
-  padding-top: 0;
+  margin-bottom: 60px;
 }
 
 .halls__item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .halls__element-image1 {
