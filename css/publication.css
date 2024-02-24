@@ -1,5 +1,13 @@
 .publication {
   padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.publication__article-block1,
+.publication__article-block2,
+.publication__article-block3 {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .publication__article-title {
@@ -20,23 +28,29 @@
   margin-bottom: 0px;
 }
 
-.navigation {
+.navigation,
+.publication__article-block4 {
   width: 1140px;
-  height: 215px;
-  background-color: #F1F1F1;
+  min-height: auto;
+  background-color: #f1f1f1;
   padding: 25px 45px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   margin-left: -30px;
 }
 
-.navigation__title {
+.publication__article-block4-mb {
+  margin-bottom: 0;
+}
+
+.navigation__title,
+.publication__article-title2 {
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .navigation__list {
-  padding-left: 20px;
-  color: #02535F;
+  padding-left: 24px;
+  color: #02535f;
 }
 
 .navigation__item:not(:last-child) {
@@ -44,12 +58,16 @@
 }
 
 .navigation__item-link {
-  border-bottom: 1px solid #02535F;
+  border-bottom: 1px solid #000000;
 }
 
 .publication__block-title {
   font-weight: 900;
   font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.publication__block-element1 {
   margin-bottom: 30px;
 }
 
@@ -73,8 +91,86 @@
   font-weight: 700;
 }
 
+.publication__block-style2 {
+  font-style: italic;
+}
+
 .publication__block-img1 {
   display: inline-block;
   width: 560px;
   height: auto;
+}
+
+.publication__block-img2 {
+  width: 560px;
+}
+
+.publication__block-text-mb {
+  margin-bottom: 30px;
+}
+
+.publication__block-text-mb:last-child {
+  margin-bottom: 0;
+}
+
+.publication__block-img3 {
+  width: 1080px;
+}
+
+.publication__block-img4 {
+  width: 600px;
+}
+
+.publication__block2 {
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+}
+
+.publication__block-text2 {
+  padding: 15px 30px;
+  color: #5e5e5e;
+}
+
+.publication__block-img6 {
+  width: 964px;
+}
+
+.publication__block-img7 {
+  width: 1022px;
+}
+
+.publication__block-img8 {
+  width: 600px;
+}
+
+.publication__block-img9 {
+  width: 600px;
+}
+
+.publication__block-img10 {
+  width: 1080px;
+}
+
+.publication__block-img11 {
+  width: 1080px;
+}
+
+.publication__block-img12 {
+  width: 806px;
+}
+
+.publication__block-img13 {
+  width: 317px;
+}
+
+.publication__block-img14 {
+  width: 500px;
+}
+
+.publication__block-text2-mb {
+  margin-bottom: 10px;
+}
+
+.publication__article-element {
+  margin-bottom: 30px;
 }

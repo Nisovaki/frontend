@@ -54,3 +54,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.img-mb {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
