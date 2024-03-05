@@ -1,0 +1,54 @@
+.rest {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.rest__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rest__item {
+  display: block;
+  width: 380px;
+  height: 228px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 166px;
+}
+
+.rest__item:not(:nth-child(-1n + 3)) {
+  margin-bottom: 0;
+}
+
+
+.rest__item-glasses {
+  background-image: url(../img/vr.jpg);
+  background-position: -16px 0px;
+}
+
+.rest__item-audio {
+  background-image: url(../img/audio.jpg);
+}
+
+.rest__item-karaoke {
+  background-image: url(../img/micro.jpg);
+}
+
+.rest__item-table {
+  background-image: url(../img/game.jpg);
+  background-position: -17px 0;
+}
+
+.rest__item-movie {
+  background-image: url(../img/netflix.jpg);
+  background-position: 0 -90px;
+}
+
+.rest__item-games {
+  background-image: url(../img/sony.jpg);
+  background-position: 0 -30px;
+}
