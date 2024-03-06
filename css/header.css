@@ -53,6 +53,17 @@
   cursor: pointer;
 }
 
+.nav__link:hover,
+.nav__link:focus {
+  background-color: #6c0287;
+  border: 3px solid #6c0287;
+}
+
+.nav__link:active {
+  background-color: #640aa3;
+  border: 3px solid #000000;
+}
+
 .header__txt {
   display: flex;
   align-items: center;
@@ -95,37 +106,43 @@
   box-shadow: 1px 0px 17px #6c0287;
 }
 
+.header__btn:hover,
+.header__btn:focus {
+  background-color: #840aa3;
+}
+
+.header__btn:active {
+  background-color: #640aa3;
+}
+
 .header__down {
   display: flex;
+  justify-content: center;
   position: relative;
-  margin: auto;
   z-index: 1;
+  outline: 1px solid transparent;
+}
+
+.header__down:focus {
+  margin: auto;
   width: 97px;
   height: 97px;
-  border-radius: 100%;
-  border: 1px solid #ffffff;
+  outline: 1px solid #cd06ff;
 }
 
-.header__down::after {
-  position: relative;
-  z-index: 1;
-  content: "";
-  width: 20px;
-  height: 1px;
-  border: 1px solid #ffffff;
-  transform: rotate(-45deg);
-  margin: auto;
-  margin-left: -4px;
+.header__down-rect {
+  fill: rgba(255, 255, 255, 1);
 }
 
-.header__down::before {
-  position: relative;
-  z-index: 1;
-  content: "";
-  width: 20px;
-  height: 1px;
-  border: 1px solid #ffffff;
-  transform: rotate(45deg);
-  margin: auto;
-  margin-right: -3px;
+.header__down-circle:hover {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.header__down-rect:hover {
+  fill: rgba(108, 2, 135, 1);
+}
+
+.header__down-circle:active {
+  stroke: rgba(205, 6, 255, 1);
+  fill: rgba(205, 6, 255, 1);
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
     <link rel="stylesheet" href="css/index.css" />
-    <title>Lesson_01</title>
+    <title>Lesson_02</title>
   </head>
 
   <body>
@@ -71,7 +71,13 @@
 
         <a href="#" class="header__btn">Забронировать</a>
 
-        <a href="#" class="header__down"></a>
+        <a class="header__down" href="#">
+          <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="header__down-circle" cx="48.5" cy="48.5" r="48" stroke="white"/>
+            <rect class="header__down-rect" x="34.4253" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4253 43.9162)" fill="currentColor"/>
+            <rect class="header__down-rect" x="48.5806" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5806 58.0737)" fill="currentColor"/>
+          </svg>
+        </a>
       </div>
     </header>
 
@@ -84,9 +90,7 @@
           </h2>
 
           <div class="rest__list">
-            <a href="#" class="rest__item rest__item-glasses">
-              VR очки
-            </a>
+            <a href="#" class="rest__item rest__item-glasses"> VR очки </a>
 
             <a href="#" class="rest__item rest__item-audio">
               Аудио-система 5.1 <br />
@@ -97,18 +101,14 @@
               Караоке (4 микрофона)
             </a>
 
-            <a href="" class="rest__item rest__item-table">
-              Настольные игры
-            </a>
+            <a href="" class="rest__item rest__item-table"> Настольные игры </a>
 
             <a href="" class="rest__item rest__item-movie">
               Кино сервисы Netflix, IVI, <br />
               MegoGo, Кинопоиск, Okko
             </a>
 
-            <a href="#" class="rest__item rest__item-games">
-              PlayStation 5
-            </a>
+            <a href="#" class="rest__item rest__item-games"> PlayStation 5 </a>
           </div>
         </div>
       </section>
@@ -712,10 +712,38 @@
 
           <div class="footer__copy-block">
             <a href="#" class="footer__copy-link">Design by Anastasia Ilina</a>
-            <a href="mailto:ilina9825@gmail.com" class="footer__copy-link">ilina9825@gmail.com</a>
+            <a href="mailto:ilina9825@gmail.com" class="footer__copy-link"
+              >ilina9825@gmail.com</a
+            >
           </div>
         </div>
       </div>
     </footer>
+
+    <!-- <style>
+    /* Добавляем стили при наведении курсора */
+    circle:hover,
+    rect:hover {
+        fill: red; /* меняем цвет на красный */
+    }
+    
+    /* Добавляем стили при активации */
+    circle:active,
+    rect:active {
+        fill: blue; /* меняем цвет на синий */
+    }
+    
+    /* Добавляем стандартные стили для круга */
+    circle {
+        fill: transparent;
+        transition: fill 0.3s; /* добавляем плавный переход */
+    }
+    
+    /* Добавляем стандартные стили для прямоугольников */
+    rect {
+        fill: transparent;
+        transition: fill 0.3s; /* добавляем плавный переход */
+    }
+</style> -->
   </body>
 </html>
