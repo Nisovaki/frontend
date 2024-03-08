@@ -63,3 +63,15 @@
 .footer__copy-link:last-child {
   margin-bottom: 0;
 }
+
+.footer__social-effect:hover {
+  fill: #eadeed;
+}
+
+.footer__social-effect:active {
+  fill: #cd06ff;
+}
+
+.footer__social-link:focus {
+  outline: 1px solid #cd06FF;
+}

@@ -30,12 +30,30 @@
 }
 
 .booking__btn {
+  outline: 3px solid transparent;
   text-transform: uppercase;
   background-color: #fff;
   font-weight: 700;
   font-size: 30px;
   padding: 7px 15px;
   border-radius: 8px;
+}
+
+.booking__btn:hover {
+  outline: 3px solid #640aa3;
+  outline-offset: -3px;
+  background-color: #eadeed;
+}
+
+.booking__btn:active {
+  outline: 3px solid #eadeed;
+  outline-offset: -3px;
+  background-color: #640aa3;
+}
+
+.booking__btn:focus {
+  padding: 4px 12px;
+  border: 3px solid #640aa3;
 }
 
 .booking__appearance {
@@ -63,10 +81,20 @@
   margin-right: 12px;
 }
 
+.booking__item-choice:focus {
+  outline: 1px solid #cd06ff;
+  outline-offset: 2px;
+}
+
 .booking__item-check {
   width: 25px;
   height: 25px;
   margin-right: 12px;
+}
+
+.booking__item-check:focus {
+  outline: 1px solid #cd06ff;
+  outline-offset: 2px;
 }
 
 .booking__info-list {
@@ -93,7 +121,9 @@
   padding-left: 15px;
 }
 
-
+.booking__info-inp:focus {
+  outline: 2px solid #cd06ff;
+}
 
 .booking__info-component {
   display: flex;
@@ -123,10 +153,30 @@
   border-radius: 10px;
 }
 
+.booking__from-btn:hover {
+  border: 3px solid #640aa3;
+  padding: 13px 47px;
+  background-color: #eadeed;
+}
+
+.booking__from-btn:active {
+  border: 3px solid #eadeed;
+  padding: 13px 47px;
+  background-color: #EADEED;
+}
+
+.booking__from-btn:focus {
+  outline: 3px solid #640AA3;
+}
+
 .booking__info-date {
   position: absolute;
   z-index: 0;
   opacity: 0;
+}
+
+.booking__info-date:focus {
+  outline: 2px solid #cd06ff;
 }
 
 .booking__info-date + label {
@@ -172,6 +222,10 @@
   opacity: 0;
 }
 
+.booking__info-time:focus {
+  outline: 2px solid #cd06ff;
+}
+
 .booking__info-time + label {
   display: inline-flex;
   align-items: center;
@@ -213,6 +267,10 @@
   position: absolute;
   z-index: 0;
   opacity: 0;
+}
+
+.booking__info-human:focus {
+  outline: 2px solid #cd06ff;
 }
 
 .booking__info-human + label {
