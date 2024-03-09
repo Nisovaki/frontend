@@ -25,6 +25,7 @@
   background-repeat: no-repeat;
   width: 675px;
   height: 762px;
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -117,32 +118,22 @@
 
 .header__down {
   display: flex;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
+  margin: auto;
   outline: 1px solid transparent;
+  background-image: url(../img/down.svg);
+  width: 97px;
+  height: 97px;
+  position: relative;
+  z-index: 99;
+}
+
+.header__down:hover {
+  background-image: url(../img/down-hover.svg);
+}
+.header__down:active {
+  background-image: url(../img/down-active.svg);
 }
 
 .header__down:focus {
-  margin: auto;
-  width: 97px;
-  height: 97px;
   outline: 1px solid #cd06ff;
-}
-
-.header__down-rect {
-  fill: rgba(255, 255, 255, 1);
-}
-
-.header__down-circle:hover {
-  fill: rgba(255, 255, 255, 1);
-}
-
-.header__down-rect:hover {
-  fill: rgba(108, 2, 135, 1);
-}
-
-.header__down-circle:active {
-  stroke: rgba(205, 6, 255, 1);
-  fill: rgba(205, 6, 255, 1);
 }

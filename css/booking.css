@@ -163,6 +163,7 @@
   border: 3px solid #eadeed;
   padding: 13px 47px;
   background-color: #EADEED;
+  outline: 3px solid transparent;
 }
 
 .booking__from-btn:focus {
