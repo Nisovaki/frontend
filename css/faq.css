@@ -54,4 +54,3 @@
 .faq__item:nth-child(even):active:after {
   background-image: url(../img/open-active.svg);
 }
-

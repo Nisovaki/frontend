@@ -130,6 +130,7 @@
 .header__down:hover {
   background-image: url(../img/down-hover.svg);
 }
+
 .header__down:active {
   background-image: url(../img/down-active.svg);
 }
