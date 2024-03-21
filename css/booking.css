@@ -35,8 +35,12 @@
   background-color: #fff;
   font-weight: 700;
   font-size: 30px;
-  padding: 7px 15px;
   border-radius: 8px;
+  outline: 3px solid transparent;
+  padding: 4px 12px;
+  border: 3px solid transparent;
+  transition-duration: 0.7s;
+  transition-property: background-color, outline, border;
 }
 
 .booking__btn:hover {
@@ -149,25 +153,26 @@
   font-weight: 700;
   text-transform: uppercase;
   background-color: #fff;
-  padding: 16px 50px;
+  padding: 13px 47px;
   border-radius: 10px;
+  border: 3px solid #fff;
+  outline: 3px solid transparent;
+  transition-duration: 0.7s, 0.5s, 0.7s;
+  transition-property: background-color, border, outline;
 }
 
 .booking__from-btn:hover {
   border: 3px solid #640aa3;
-  padding: 13px 47px;
   background-color: #eadeed;
 }
 
 .booking__from-btn:active {
   border: 3px solid #eadeed;
-  padding: 13px 47px;
-  background-color: #EADEED;
-  outline: 3px solid transparent;
+  background-color: #eadeed;
 }
 
 .booking__from-btn:focus {
-  outline: 3px solid #640AA3;
+  outline: 3px solid #640aa3;
 }
 
 .booking__info-date {

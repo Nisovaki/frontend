@@ -18,6 +18,11 @@
   margin-bottom: 40px;
   padding-left: 40px;
   padding-top: 166px;
+  transition: 1s;
+}
+
+.rest__item:hover {
+  transform: scale(1.1);
 }
 
 .rest__item:not(:nth-child(-1n + 3)) {

@@ -29,6 +29,8 @@
   display: flex;
   width: 46px;
   height: 46px;
+  transition-duration: 0.7s;
+  transition-property: background-image;
 }
 
 .faq__item:nth-child(odd)::after {
