@@ -48,7 +48,7 @@
 }
 
 .nav__link {
-  border: 3px solid #cd06ff;
+  border: 3px solid var(--main-extension);
   border-radius: 10px;
   padding: 12px 32px;
   cursor: pointer;
@@ -58,13 +58,13 @@
 
 .nav__link:hover,
 .nav__link:focus {
-  background-color: #6c0287;
-  border: 3px solid #6c0287;
+  background-color: var(--main-btn);
+  border: 3px solid var(--main-btn);
 }
 
 .nav__link:active {
-  background-color: #640aa3;
-  border: 3px solid #000000;
+  background-color: var(--main-bordering);
+  border: 3px solid var(--nav-color);
 }
 
 .header__txt {
@@ -83,7 +83,7 @@
 
 .header__txt-sub {
   font-weight: 900;
-  color: #cd06ff;
+  color: var(--main-extension);
   font-size: 100px;
   line-height: 141.02px;
 }
@@ -103,21 +103,21 @@
   font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #6c0287;
+  background-color: var(--main-btn);
   padding: 25px 69px;
   border-radius: 10px;
-  box-shadow: 1px 0px 17px #6c0287;
+  box-shadow: 1px 0px 17px var(--main-btn);
   transition-duration: 0.7s;
   transition-property: background-color;
 }
 
 .header__btn:hover,
 .header__btn:focus {
-  background-color: #840aa3;
+  background-color: var(--anim-color);
 }
 
 .header__btn:active {
-  background-color: #640aa3;
+  background-color: var(--main-bordering);
 }
 
 .header__down {
@@ -142,5 +142,5 @@
 }
 
 .header__down:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--main-extension);
 }

@@ -122,6 +122,6 @@
 }
 
 .footer__social-link:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--main-extension);
   outline-offset: 1px;
 }

@@ -36,6 +36,7 @@
 
 .rest__item-audio {
   background-image: url(../img/audio.jpg);
+  margin-top: 70px;
 }
 
 .rest__item-karaoke {
@@ -45,6 +46,7 @@
 .rest__item-table {
   background-image: url(../img/game.jpg);
   background-position: -17px 0;
+  margin-top: -70px;
 }
 
 .rest__item-movie {
@@ -55,4 +57,5 @@
 .rest__item-games {
   background-image: url(../img/sony.jpg);
   background-position: 0 -30px;
+  margin-top: -70px;
 }

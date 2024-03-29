@@ -36,7 +36,7 @@
 
 .about__marks {
   font-weight: 900;
-  color: #6c0287;
+  color: var(--main-btn);
 }
 
 .about__author-img {
