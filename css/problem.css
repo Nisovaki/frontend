@@ -1,0 +1,102 @@
+.problem {
+  padding-top: 40px;
+  padding-bottom: 120px;
+  background: url(../img/problem-img.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: var(--main-text-1);
+}
+
+.problem:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(47, 50, 75, 0.85);
+  z-index: 1;
+}
+
+.problem-block {
+  position: relative;
+  z-index: 10;
+}
+
+.problem__title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 17px;
+}
+
+.problem__subtitle {
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  color: var(--problem-subtitle);
+  margin-bottom: 50px;
+}
+
+.problem__from {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.problem__input {
+  outline: none;
+  padding: 9px 25px;
+  background-color: transparent;
+  border: 1.38px solid var(--main-text-1);
+  border-radius: 50px;
+  color: var(--main-text-1);
+  margin-bottom: 21px;
+}
+
+.problem__input:focus {
+  border: 1.38px solid var(--hover);
+}
+
+.problem__input:last-child {
+  /* Решить вопрос с отступами */
+  margin-bottom: 50px;
+}
+
+.problem__btn {
+  padding: 11px 38px;
+  margin-bottom: 50px;
+}
+
+.problem__btn:hover {
+  background-color: var(--hover);
+}
+
+.problem__btn:active {
+  background-color: var(--active);
+}
+
+.problem__mark {
+  font-size: 20px;
+}
+
+.problem__mark-style {
+  z-index: 10;
+  position: relative;
+  color: var(--mark-style);
+  border-bottom: 1px solid var(--mark-style);
+  cursor: pointer;
+}
+
+.problem__mark-style:hover, .problem__mark-style:hover {
+  color: var(--hover);
+}
+
+.problem__mark-style:active, .problem__mark-style:active {
+  color: var(--active);
+}
+
+::-webkit-input-placeholder {
+  color: var(--line);
+}

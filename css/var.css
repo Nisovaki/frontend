@@ -1,0 +1,18 @@
+:root {
+  --main-text-1: rgba(255, 255, 255, 1);
+  --main-text-2: rgba(56, 58, 76, 1);
+  --header-title: rgba(255, 255, 255, 0.86);
+  --header-txt: rgba(255, 255, 255, 0.75);
+  --line: rgba(255, 255, 255, 0.5);
+  --hover: rgb(0, 208, 255);
+  --active: rgb(0, 136, 255);
+  --button: rgba(21, 169, 203, 1);
+  --advantage-elipse: rgba(35, 199, 236, 1);
+  --problem-subtitle: rgba(255, 255, 255, 0.8);
+  --mark-style: rgba(74, 118, 168, 1);
+  --footer-fon: rgba(47, 50, 75, 1);
+
+
+
+
+}
