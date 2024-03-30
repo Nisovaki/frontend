@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1260px;
   padding: 0 30px;
   margin: 0 auto;
 }
@@ -81,4 +81,29 @@ iframe {
   font-size: 20px;
   background-color: var(--button);
   color: var(--main-text-1);
+}
+
+.phone {
+  font-size: 24px;
+}
+
+.phone-text {
+  font-size: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .phone {
+    font-size: 21px;
+  }
+
+  .svg {
+    width: 59px;
+  }
 }

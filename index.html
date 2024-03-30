@@ -19,6 +19,7 @@
         <div class="header__menu">
           <div class="header__logo">
             <svg
+              class="svg"
               width="68"
               height="68"
               viewBox="0 0 68 68"
@@ -39,11 +40,11 @@
             </svg>
           </div>
 
-          <div class="header__call">
-            <a href="tel:89625561234" class="header__phone"
+          <div class="call header__call">
+            <a href="tel:89625561234" class="phone header__phone"
               >+7 (962) 556 - 1234</a
             >
-            <a href="tel:89625561234" class="header__phone-text"
+            <a href="tel:89625561234" class="phone-text header__phone-text"
               >Перезвоните мне</a
             >
           </div>
@@ -112,8 +113,7 @@
           <div class="problem-block">
             <h2 class="problem__title">Остались вопросы?</h2>
             <h3 class="problem__subtitle">
-              Оставьте номер телефона, и мы перезвоним вам
-            </h3>
+              Оставьте номер телефона, и мы перезвоним вам</h3>
 
             <form action="#" class="problem__from">
               <input
@@ -156,6 +156,7 @@
           <div class="footer__block-1">
             <div class="footer__logo">
               <svg
+                class="svg"
                 width="68"
                 height="68"
                 viewBox="0 0 68 68"
@@ -183,20 +184,35 @@
           </div>
 
           <div class="footer__block-2">
-            <p class="footer__author">Сделано в Ивановым Иваном</p>
+            <p class="footer__author">Сделано 
+              <span class="footer__author-none">в</span> 
+              Ивановым Иваном
+            </p>
           </div>
 
           <div class="footer__block-3">
-            <div class="footer__call">
-              <a href="tel:89625561234" class="footer__phone"
+            <div class="call footer__call">
+              <a href="tel:89625561234" class="phone footer__phone"
                 >+7 (962) 556 - 1234</a
               >
-              <a href="tel:89625561234" class="footer__phone-text"
+              <a href="tel:89625561234" class="phone-text footer__phone-text"
                 >Перезвоните мне</a
               >
             </div>
           </div>
+          
+          <div class="footer__block-5">
+            <a href="tel:89625561234" class="footer__call-phone"></a>
+          </div>
         </div>
+
+        <div class="footer__block-4"> <!-- Доделать этот блок -->
+          <p class="footer__author">Сделано 
+            <span class="footer__author-none">в</span> 
+            Ивановым Иваном
+          </p>
+        </div>
+
       </div>
     </footer>
   </body>
