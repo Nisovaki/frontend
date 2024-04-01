@@ -98,6 +98,11 @@ iframe {
   align-items: center;
 }
 
+.none {
+    display: inline;
+  }
+
+
 @media (max-width: 1024px) {
   .phone {
     font-size: 21px;
@@ -105,5 +110,29 @@ iframe {
 
   .svg {
     width: 59px;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .svg {
+      width: 50px;
+  }
+
+  .phone {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .svg {
+    width: 30px;
   }
 }

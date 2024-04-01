@@ -1,0 +1,29 @@
+.author { 
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .author {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--author-fon);
+  }
+
+  .author-txt {
+    text-align: center;
+    color: var(--line);
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .author {
+    padding-top: 16px;
+    padding-bottom: 18px;
+  }
+
+  .author-txt {
+    font-size: 12px;
+  }
+}
