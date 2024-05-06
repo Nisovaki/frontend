@@ -1,16 +1,121 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson_01</title>
-</head>
-<body>
-  <h1>О нас</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Lesson_07</title>
+  </head>
+  <body>
+    <!-- Посмотреть сколько размер экрана между 1920 до 1024 -->
+    <header class="header">
+      <div class="container">
+        <div class="header__block">
+          <div class="header__logo"></div>
 
-  <p>Для наших гостей мы создали <i>концептуально новое</i> <em>игровое пространство виртуальной реальности</em> в центральной части города.</p>
-  <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-  <p><blockquote><span style="text-transform: uppercase;"><b>game</b> <strong>over</strong></span> &mdash; это место незабываемых впечатлений</blockquote></p>
-  <p><blockquote><cite>Аркадий Абакшин, создатель игровой территории <span style="text-transform: uppercase;">game over</span></cite></blockquote></p>
-</body>
+          <nav class="nav">
+            <a href="#" class="nav__btn">
+              <div class="nav__line">
+                <div class="nav__line-1"></div>
+                <div class="nav__line-2"></div>
+                <div class="nav__line-3"></div>
+              </div>
+              Меню
+            </a>
+          </nav>
+
+          <form action="#" class="header__form">
+            <input type="text" class="header__inp" placeholder="Я ищу..." />
+            <button class="header__btn"></button>
+          </form>
+
+          <a href="#" class="header__profile">
+            <img src="img/person.svg" class="header__profile-img" />
+            Профиль
+          </a>
+          <a href="#" class="header__basket">
+            <img src="img/shopping_cart.svg" class="header__basket-img" />
+            Корзина
+          </a>
+          <a href="#" class="header__favourites">
+            <img src="img/favorite.svg" class="header__favourites-img" />
+            Избранное
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="sale">
+          <div class="sale__list">
+            <div class="sale__laptop">
+              <h1 class="sale__title">-50% на все ноутбуки</h1>
+
+              <p class="sale__stock">До конца акции:</p>
+
+              <div class="sale__time">
+                <p class="sale__day">
+                  <span class="sale__num">3</span>
+                  дня
+                </p>
+                <p class="sale__oclock">
+                  <span class="sale__num">8</span>
+                  часов
+                </p>
+                <p class="sale__min">
+                  <span class="sale__num">43</span>
+                  минуты
+                </p>
+              </div>
+            </div>
+
+            <div class="sale__book">
+              <p class="sale__book-text"><span class="sale__book-fw">Книга</span> – лучший подарок</p>
+            </div>
+
+            <div class="sale__discounts">
+              <p class="sale__discounts-text">Время скидок!</p>
+              <p class="sale__discounts-percent percent">-25%</p>
+            </div>
+
+            <div class="sale__sneakers">
+              <p class="sale__sneakers-percent percent">-40%</p>
+            </div>
+
+            <div class="sale__gift">
+              <p class="sale__gift-text">
+                Вторая пара кроссовок <br>
+                <span class="sale__gift-increase"> в подарок!</span>
+              </p>
+            </div>
+
+            <div class="sale__idea">
+              <p class="sale__idea-text">Идеи новогодних подарков</p>
+            </div>
+
+            <div class="sale__profitably">
+              <p class="sale__profitably-text">Выгодно в декабре!</p>
+              <p class="sale__profitably-percent percent">-15%</p>
+            </div>
+
+            <div class="sale__trappings">
+              <p class="sale__trappings-text">Новогодние украшения</p>
+            </div>
+
+            <div class="sale__dresses">
+              <p class="sale__dresses-percent percent">-55%</p>
+            </div>
+
+            <div class="sale__chemical">
+              <p class="sale__chemical-percent percent">-25%</p>
+              <p class="sale__chemical-text">На бытовую химию</p>
+            </div>
+
+            <div class="sale__toys"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

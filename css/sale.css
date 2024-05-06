@@ -1,0 +1,218 @@
+.sale {
+  padding-top: 42px;
+  padding-bottom: 189px;
+}
+
+.sale__title {
+  font-family: 'Lato Bold';
+  font-size: 70px;
+  margin-bottom: 102px;
+}
+
+.sale__stock {
+  text-align: center;
+  letter-spacing: 0.1px;
+  margin-bottom: -2px;
+  font-size: 16px;
+}
+
+.sale__time {
+  display: flex;
+  justify-content: center;
+}
+
+.sale__day, 
+.sale__oclock, 
+.sale__min {
+  font-family: 'Lato Bold';
+  font-size: 32px;
+  text-align: center;
+}
+
+.sale__day {
+  width: 120px;
+}
+
+.sale__oclock {
+  width: 163px;
+} 
+
+.sale__min {
+  width: 210px;
+}
+
+.sale__num {
+  font-size: 60px;
+}
+
+.sale__list {
+  padding-bottom: 30px;
+  font-size: 30px;
+  display: grid;
+  gap: 60px;
+  grid-template-columns: 245px 245px 245px 245px 245px 245px 245px;
+  grid-template-rows: 245px 175px 245px 245px 245px 245px;
+}
+
+.sale__laptop { 
+  grid-area: 1 / 1 / 3 / 7;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  padding: 158px 112px 54px 112px;
+  border-radius: 20px;
+}
+
+.sale__book { 
+  grid-area: 3 / 1 / 3 / 2;
+  padding: 107px 20px 10px 20px;
+  background-image: url(../img/book.jpg);
+  background-repeat: no-repeat;
+  line-height: 40px;
+  border-radius: 20px;
+}
+
+.sale__book-fw {
+  font-family: 'Lato Bold';
+  letter-spacing: 1.5px;
+  font-size: 37px;
+}
+
+.sale__discounts { 
+  grid-area: 3 / 2 / 3 / 3;
+  padding: 83px 14px 10px 14px;
+  background-image: url(../img/discounts.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__discounts-text {
+  letter-spacing: 0.3px;
+}
+
+.sale__discounts-percent {
+  margin-top: 22px;
+  margin-left: 123px;
+  padding-top: 27px;
+}
+
+.sale__sneakers { 
+  grid-area: 4 / 1 / 4 / 3;
+  padding: 20px 20px 20px 20px;
+  background-image: url(../img/sneakers.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__sneakers-percent {
+  padding-top: 30px;
+}
+
+.sale__gift { 
+  grid-area: 3 / 3 / 5 / 5;
+  padding: 351px 20px 20px 20px;
+  background-image: url(../img/gift.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__gift-text {
+  font-size: 40px;
+  background-color: var(--fon-colops);
+  border-radius: 20px;
+  padding: 25px 23px;
+  line-height: 59px;
+}
+
+.sale__gift-increase {
+  font-size: 57px;
+}
+
+.sale__idea { 
+  grid-area: 3 / 5 / 3 / 7; 
+  padding: 110px 33px 10px 29px;
+  background-image: url(../img/idea.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.sale__idea-text {
+  font-size: 40px;
+  letter-spacing: 0.3px;
+  line-height: 50px;
+}
+
+.sale__profitably { 
+  display: flex;
+  justify-content: space-between;
+  grid-area: 4 / 5 / 4 / 7;
+  padding: 138px 20px 10px 28px;
+  background-image: url(../img/profitably.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__profitably-text {
+  font-size: 40px;
+  padding-top: 29px;
+  letter-spacing: 0.3px;
+}
+
+.sale__profitably-percent {
+  padding-top: 30px;
+}
+
+.sale__trappings { 
+  grid-area: 5 / 1 / 7 / 5;
+  padding: 387px 10px 10px 49px;
+  background-image: url(../img/trappings.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__trappings-text {
+  color: var(--new-text);
+  font-family: 'Lato Bold';
+  width: 644px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 34px 41px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.sale__dresses { 
+  grid-area: 5 / 5 / 7 / 5;
+  padding: 445px 10px 10px 137px;
+  background-image: url(../img/dresses.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__dresses-percent {
+  padding-top: 27px;
+}
+
+.sale__chemical { 
+  grid-area: 5 / 6 / 5 / 7; 
+  padding: 21px 10px 10px 18px;
+  background-image: url(../img/chemical.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.sale__chemical-percent {
+  padding-top: 29px;
+}
+
+.sale__chemical-text {
+  margin-top: 41px;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+}
+
+.sale__toys { 
+  grid-area: 6 / 6 / 6 / 7;
+  padding: 10px 10px 10px 10px;
+  background-image: url(../img/toys.jpg);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}

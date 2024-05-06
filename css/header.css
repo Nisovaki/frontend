@@ -1,0 +1,117 @@
+.header {
+  padding-top: 26px;
+  padding-bottom: 42px;
+}
+
+.header__block {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 242px 180px 783px 69px 66px 79px;
+  grid-template-rows: 70px;
+  grid-column-gap: 70px;
+}
+
+.header__logo {
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  width: 190px;
+  height: 41px;
+  margin-top: 22px;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--element-color);
+  color: var(--main-colors);
+  width: 151px;
+  height: 54px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 22px;
+}
+
+.nav__line {
+  display: flex;
+  flex-direction: column;
+  height: 12px;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+
+.nav__line-1 {
+  width: 18px;
+  height: 1px;
+  background-color: var(--main-colors);
+}
+
+.nav__line-2 {
+  width: 12px;
+  height: 1px;
+  background-color: var(--main-colors);
+}
+
+.nav__line-3 {
+  width: 5px;
+  height: 1px;
+  background-color: var(--main-colors);
+}
+
+.header__form {
+  position: relative;
+}
+
+.header__inp {
+  width: 757px;
+  height: 54px;
+  background-color: var(--inp-colops);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  padding: 18px 40px;
+}
+
+::-webkit-input-placeholder {
+  color: var(--placeholder-colors);
+}
+
+.header__btn {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--element-color);
+  width: 101px;
+  height: 54px;
+  border-radius: 30px;
+  position: absolute;
+  right: 25px;
+}
+
+.header__profile,
+.header__basket,
+.header__favourites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2px;
+  color: var(--main-text);
+}
+
+.header__profile-img {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+.header__basket-img {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+.header__favourites-img {
+  width: 33px;
+  height: 33px;
+  margin-bottom: 10px;
+}
