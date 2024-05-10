@@ -83,9 +83,63 @@ iframe {
   font-size: 30px;
 }
 
-
-/* @media (max-width: 1920px)  {
+@media (max-width: 1850px)  {
   .container {
-    max-width: 1770px;
+    max-width: 1650px;
   }
-} */
+}
+
+@media (max-width: 1680px)  {
+  .container {
+    max-width: 1400px;
+    padding: 0 19.5px;
+  }
+}
+
+@media (max-width: 1440px)  {
+  .container {
+    max-width: 1250px;
+  }
+}
+
+@media (max-width: 1280px)  {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (max-width: 1024px)  {
+  .container {
+    max-width: 997px;
+  }
+}
+
+@media (max-width: 997px)  {
+  .container {
+    max-width: 760px;
+  }
+}
+
+@media (max-width: 768px)  {
+  .container {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 568px)  {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 480px)  {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 320px)  {
+  .container {
+    max-width: 280px;
+  }
+}
