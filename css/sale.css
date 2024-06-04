@@ -58,9 +58,9 @@
   grid-area: 1 / 1 / 3 / 7;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
-  background-position-y: 48.5%;
-  background-position-x: -1px;
-  background-size: 110%;
+  background-position-y: 40%;
+  background-position-x: 49%;
+  background-size: 133%;
   padding: 158px 112px 54px 112px;
   border-radius: 20px;
 }
@@ -72,6 +72,7 @@
   background-repeat: no-repeat;
   line-height: 40px;
   border-radius: 20px;
+  background-position-x: 51%;
 }
 
 .sale__book-fw {
@@ -86,6 +87,7 @@
   background-image: url(../img/discounts.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-x: 51%;
 }
 
 .sale__discounts-text {
@@ -104,6 +106,8 @@
   background-image: url(../img/sneakers.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-y: -89px;
+  background-size: 550px 384px;
 }
 
 .sale__sneakers-percent {
@@ -116,6 +120,9 @@
   background-image: url(../img/gift.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-size: 587px 782px;
+  background-position-x: 0px;
+  background-position-y: -115px;
 }
 
 .sale__gift-text {
@@ -136,7 +143,10 @@
   background-image: url(../img/idea.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-y: -98px;
+  background-size: 550px 400px;
 }
+
 .sale__idea-text {
   font-size: 40px;
   letter-spacing: 0.3px;
@@ -151,6 +161,8 @@
   background-image: url(../img/profitably.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-y: -81px;
+  background-size: 551px 392px;
 }
 
 .sale__profitably-text {
@@ -169,6 +181,8 @@
   background-image: url(../img/trappings.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-size: 1161px 923px;
+  background-position-y: -218px;
 }
 
 .sale__trappings-text {
@@ -188,6 +202,8 @@
   background-image: url(../img/dresses.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-x: -96px;
+  background-size: 436px 550px;
 }
 
 .sale__dresses-percent {
@@ -200,6 +216,8 @@
   background-image: url(../img/chemical.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-x: -66px;
+  background-size: 336px 245px;
 }
 
 .sale__chemical-percent {
@@ -248,6 +266,7 @@
   .sale__trappings {
     padding: 380px 10px 10px 49px;
   }
+
 }
 
 @media (max-width: 1680px)  {
@@ -455,6 +474,51 @@
 
   .sale__list {
     font-size: 24px;
+  }
+
+  .sale__discounts {
+    padding: 61px 14px 8px 8px;
+  }
+
+  .sale__discounts-percent {
+    margin-top: 30px;
+    margin-left: 110px;
+    padding-top: 27px;
+  }
+
+  .sale__sneakers {
+    padding: 9px;
+    background-size: 101%;
+    background-position-y: 65%;
+    background-position-x: 50%;
+  }
+
+  .sale__gift {
+    padding: 290px 20px 20px 20px;
+  }
+
+  .sale__gift-text {
+    font-size: 30px;
+    padding: 26px 25px;
+    line-height: 46px;
+  }
+
+  .sale__gift-increase {
+    font-size: 41px;
+  }
+
+  .sale__idea {
+    padding: 110px 33px 10px 21px;
+    background-position-y: -77px;
+    background-size: 100%;
+    background-position-x: 1px;
+  }
+
+  .sale__idea-text {
+    letter-spacing: 0.6px;
+    font-size: 29px;
+    width: 80%;
+    line-height: 40px;
   }
 }
 
