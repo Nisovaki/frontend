@@ -129,7 +129,7 @@
   font-size: 40px;
   background-color: var(--fon-colops);
   border-radius: 20px;
-  padding: 25px 23px;
+  padding: 26px 21px;
   line-height: 59px;
 }
 
@@ -236,6 +236,9 @@
   background-image: url(../img/toys.jpg);
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 474px 341px;
 }
 
 
@@ -301,7 +304,9 @@
 
   .sale__sneakers {
     grid-area: 4 / 2 / 4 / 1;
-    background-position-x: 65%;
+    background-position-y: -2px;
+    background-position-x: -47px;
+    background-size: 360px 260px;
   }
 
   .sale__gift {
@@ -358,22 +363,25 @@
 
   .sale__sneakers {
     grid-area: 4 / 1 / 4 / 3;
-    background-size: 100%;
+    background-position-x: 0px;
+    background-position-y: -101px;
+    background-size: 580px 400px;
   }
 
   .sale__gift {
     grid-area: 3 / 5 / 5 / 3;
-    background-size: 100%;
   }
 
   .sale__idea {
     grid-area: 5 / 1 / 5 / 3;
-    background-size: 100%;
+    background-size: 567px 412px;
+    background-position-y: -106px;
   }
 
   .sale__profitably {
     grid-area: 6 / 3 / 6 / 1;
-    background-size: 100%;
+    background-position-y: -87px;
+    background-size: 569px 401px;
   }
 
   .sale__trappings {
@@ -382,7 +390,8 @@
 
   .sale__dresses {
     grid-area: 5 / 3 / 7 / 3;
-    background-size: 103%;
+    background-size: 442px 566px;
+    background-position-x: -101px;
   }
 
   .sale__chemical {
@@ -403,7 +412,7 @@
   .sale__list {
     gap: 24px;
     grid-template-columns: 217px 217px 217px 217px;
-    grid-template-rows: 217px 71px 217px 217px 217px 217px 217px 217px;
+    grid-template-rows: 217px 71px 217px 217px 217px 217px 217px 177px;
   }
 
   .sale__book, 
@@ -417,27 +426,26 @@
   .sale__chemical, 
   .sale__toys {
     border-radius: 16px;
-    background-size: cover;
   }
 
   .sale__laptop {
-    padding: 84px 112px 41px 80px;
-    background-position-x: -3px;
-    background-size: 101%;
-    background-position-y: 49.5%;
+    padding: 83px 112px 41px 80px;
+    background-position-x: -126px;
+    background-size: 119%;
+    background-position-y: 38.5%;
   }
 
   .sale__title {
     letter-spacing: 0.8px;
     line-height: 51px;
     font-size: 38px;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
     width: 40%;
   }
 
   .sale__stock {
     margin-left: 32px;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
   }
 
   .sale__num {
@@ -466,6 +474,9 @@
   .sale__book {
     padding: 128px 14px 23px 8px;
     line-height: 32px;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-size: 290px 219px;
   }
 
   .sale__book-fw {
@@ -478,6 +489,9 @@
 
   .sale__discounts {
     padding: 61px 14px 8px 8px;
+    background-position-x: 50%;
+    background-position-y: 16%;
+    background-size: 330px 215px;
   }
 
   .sale__discounts-percent {
@@ -488,13 +502,15 @@
 
   .sale__sneakers {
     padding: 9px;
-    background-size: 101%;
-    background-position-y: 65%;
-    background-position-x: 50%;
+    background-position-y: -86px;
+    background-size: 458px 348px;
   }
 
   .sale__gift {
     padding: 290px 20px 20px 20px;
+    background-size: 490px 658px;
+    background-position-x: 0px;
+    background-position-y: -101px;
   }
 
   .sale__gift-text {
@@ -509,9 +525,8 @@
 
   .sale__idea {
     padding: 110px 33px 10px 21px;
-    background-position-y: -77px;
-    background-size: 100%;
-    background-position-x: 1px;
+    background-position-y: -87px;
+    background-size: 456px 351px;
   }
 
   .sale__idea-text {
@@ -520,21 +535,110 @@
     width: 80%;
     line-height: 40px;
   }
-}
 
-@media (max-width: 1024px)  {
-  .container {
-    max-width: 997px;
+  .sale__profitably {
+    padding: 119px 10px 10px 20px;
+    background-position-y: -76px;
+    background-size: 455px 352px;
+  }
+
+  .sale__profitably-text {
+    font-size: 30px;
+    padding-top: 42px;
+  }
+
+  .sale__profitably-percent {
+    padding-top: 29px;
+  }
+
+  .sale__dresses {
+    padding: 360px 10px 10px 119px;
+    background-size: 373px 456px;
+    background-position-x: -78px;
+  }
+
+  .sale__chemical {
+    background-size: 306px 216px;
+    padding: 9px 10px 10px 10px;
+  }
+
+  .sale__chemical-text {
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: 3px;
+  }
+
+  .sale__toys {
+    background-position-y: 103%;
+    background-size: 447px 298px;
+  }
+
+  .sale__trappings {
+    background-size: 938px 707px;
+    padding: 295px 10px 10px 30px;
+    background-position-y: -171px;
+  }
+
+  .sale__trappings-text {
+    width: 514px;
+    padding: 28px 47px 20px 46px;
+    font-size: 31px;
+    letter-spacing: -0.7px;
   }
 }
 
 @media (max-width: 997px)  {
-  .container {
-    max-width: 760px;
+  .sale__list {
+    gap: 20px;
+    grid-template-columns: 140px 140px 220px 140px;
+    grid-template-rows: 140px 120px 140px 140px 140px 140px 140px 177px;
   }
+
+  .sale__laptop {
+    padding: 61px 112px 41px 80px;
+  }
+
+  .sale__title {
+    font-size: 29px;
+    width: 65%;
+    letter-spacing: 0.5px;
+    margin-bottom: 76px;
+  }
+
+  .sale__stock {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-bottom: 14px;
+  }
+
+  .sale__num {
+    font-size: 30px;
+  }
+
+  .sale__day,
+  .sale__oclock,
+  .sale__min {
+    font-size: 16px;
+  }
+
+  .sale__day {
+    width: 0;
+    /* Фальшивые данные исправить */
+  }
+
+  .sale__oclock {
+    width: 0;
+    /* Фальшивые данные исправить */
+  }
+
+  .sale__min {
+    width: 111px;
+    padding: 1px 1px 1px 1px;
+  }
+
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 767px)  {
   .container {
     max-width: 560px;
   }

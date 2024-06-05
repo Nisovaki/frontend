@@ -228,23 +228,27 @@
 }
 
 @media (max-width: 997px)  {
+  .header {
+    padding-bottom: 25px;
+  }
+
   .header__block {
-    grid-template-columns: 161px 369px 110px 59px;
+    grid-template-columns: 161px 368px 110px 59px;
     grid-column-gap: 0px;
     grid-row-gap: 2px;
   }
 
   .header__logo{
-    width: 165px;
+    width: 164px;
     height: 35px;
     margin-top: 13px;
   }
 
   .nav__btn {
     font-size: 16px;
-    width: 115px;
-    height: 42px;
-    padding: 15px 20px;
+    width: 114px;
+    height: 41px;
+    padding: 11px 21px;
     border-radius: 6px;
   }
 
@@ -255,15 +259,15 @@
   .header__inp {
     height: 42px;
     font-size: 12px;
-    padding: 14px 100px 14px 40px;
+    padding: 13px 92px 14px 28px;
     width: 540px;
   }
 
   .header__btn {
-    width: 82px;
+    width: 81px;
     height: 42px;
     top: 0;
-    right: 0;
+    right: -1px;
     background-size: 21px;
   }
 
@@ -271,7 +275,7 @@
   .header__basket,
   .header__favourites {
     font-size: 12px;
-    margin-top: 0;
+    margin-top: 3px;
   }
 
   .header__profile {
@@ -309,7 +313,7 @@
   }
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 767px)  {
   .header__block {
     grid-template-rows: 50px 50px 50px;
     grid-template-columns: 161px 214px 86px 59px;
@@ -335,6 +339,10 @@
 
   .header__favourites {
     grid-area: 1 / 4 / 4 / 4;
+  }
+
+  .nav__btn {
+    padding: 11px 23px;
   }
 }
 

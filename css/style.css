@@ -116,11 +116,11 @@ iframe {
 
 @media (max-width: 997px)  {
   .container {
-    max-width: 760px;
+    max-width: 740px;
   }
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 766px)  {
   .container {
     max-width: 560px;
   }
