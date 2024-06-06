@@ -111,6 +111,7 @@ iframe {
 @media (max-width: 1024px)  {
   .container {
     max-width: 997px;
+    padding: 0 30px;
   }
 }
 
@@ -118,11 +119,18 @@ iframe {
   .container {
     max-width: 740px;
   }
+
+  .percent {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 766px)  {
   .container {
     max-width: 560px;
+    padding: 0 19px;
   }
 }
 

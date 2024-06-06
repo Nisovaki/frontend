@@ -591,11 +591,14 @@
   .sale__list {
     gap: 20px;
     grid-template-columns: 140px 140px 220px 140px;
-    grid-template-rows: 140px 120px 140px 140px 140px 140px 140px 177px;
+    grid-template-rows: 140px 120px 0.5px 140px 140px 60px 60px 60px 60px 140px 176px;
   }
 
   .sale__laptop {
     padding: 61px 112px 41px 80px;
+    background-position-x: -96px;
+    background-position-y: 35.5%;
+    border-radius: 16px;
   }
 
   .sale__title {
@@ -613,6 +616,7 @@
 
   .sale__num {
     font-size: 30px;
+    padding-right: 0px;
   }
 
   .sale__day,
@@ -622,13 +626,13 @@
   }
 
   .sale__day {
-    width: 0;
-    /* Фальшивые данные исправить */
+    width: 85px;
+    padding: 1px 1px 1px 35px;
   }
 
   .sale__oclock {
-    width: 0;
-    /* Фальшивые данные исправить */
+    width: 76px;
+    padding: 1px 1px 1px 9px;
   }
 
   .sale__min {
@@ -636,11 +640,220 @@
     padding: 1px 1px 1px 1px;
   }
 
+  .sale__book, 
+  .sale__discounts, 
+  .sale__sneakers, 
+  .sale__gift, 
+  .sale__idea, 
+  .sale__profitably, 
+  .sale__trappings, 
+  .sale__dresses, 
+  .sale__chemical, 
+  .sale__toys {
+    border-radius: 12px;
+  }
+
+  .sale__book {
+    grid-area: 4 / 1 / 4 / 1;
+    padding: 54px 14px 23px 9px;
+    background-position-x: 49%;
+    background-position-y: 30%;
+    background-size: 193px 139px;
+    line-height: 22px;
+  }
+
+  .sale__book-fw {
+    font-size: 26px;
+    letter-spacing: 0px;
+  }
+
+  .sale__list {
+    font-size: 20px;
+  }
+
+  .sale__discounts {
+    grid-area: 4 / 2 / 4 / 2;
+    padding: 19px 10px 9px 5px;
+    background-position-x: 50%;
+    background-position-y: 16%;
+    background-size: 211px 140px;
+  }
+
+  .sale__discounts-text {
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+
+  .sale__discounts-percent {
+    margin-top: 44px;
+    margin-left: 75px;
+    padding-top: 18px;
+  }
+
+  .sale__sneakers {
+    grid-area: 5 / 1 / 5 / 3;
+    background-position-y: -56px;
+    background-size: 298px 227px;
+  }
+
+  .sale__sneakers-percent {
+    padding-top: 18px;
+  }
+
+  .sale__gift {
+    grid-area: 7 / 5 / 4 / 3;
+    background-size: 379px 482px;
+    background-position-y: -51px;
+    padding: 309px 11px 11px 10px;
+  }
+
+  .sale__gift-text {
+    font-size: 16px;
+    padding: 19px 23px 16px 27px;
+    line-height: 1;
+    border-radius: 12px;
+  }
+
+  .sale__gift-br {
+    display: none;
+  }
+
+  .sale__gift-increase {
+    font-size: 26px;
+    letter-spacing: 0.3px;
+  }
+
+  .sale__idea {
+    grid-area: 8 / 1 / 6 / 3;
+    padding: 83px 33px 10px 20px;
+    background-position-y: -56px;
+    background-size: 300px 225px;
+  }
+
+  .sale__idea-text {
+    font-size: 15px;
+    width: 70%;
+    line-height: 20px;
+  }
+
+  .sale__profitably {
+    grid-area: 10 / 3 / 8 / 1;
+    background-position-y: -31px;
+    background-size: 299px 200px;
+    padding: 61px 10px 10px 20px;
+  }
+
+  .sale__profitably-text {
+    letter-spacing: 0.1px;
+    font-size: 16px;
+  }
+
+  .sale__profitably-percent {
+    margin-top: 18px;
+    padding-top: 19px;
+  }
+
+  .sale__dresses {
+    grid-area: 7 / 3 / 7 / 3;
+    padding: 160px 10px 60px 159px;
+    background-size: 221px 276px;
+    background-position-x: -1px;
+    background-position-y: 1px;
+  }
+
+  .sale__dresses-percent {
+    padding-top: 18px;
+  }
+
+  .sale__chemical {
+    grid-area: 7 / 4 / 9 / 4;
+    background-size: 226px 139px;
+    background-position-x: -45px;
+  }
+
+  .sale__chemical-percent {
+    padding-top: 19px;
+  }
+
+  .sale__chemical-text {
+    font-size: 16px;
+    margin-top: 31px;
+    line-height: 19px;
+  }
+
+  .sale__toys {
+    grid-area: 9 / 4 / 9 / 4;
+    background-position-y: 101%;
+    background-size: 140px 94px;
+    border-radius: 16px;
+  }
+
+  .sale__trappings {
+    grid-area: 10 / 5 / 10 / 1;
+    background-size: 700px 527px;
+    padding: 242px 10px 94px 25px;
+    background-position-y: -136px;
+  }
+
+  .sale__trappings-text {
+    font-size: 21px;
+    padding: 24px 28px 21px 35px;
+    width: 348px;
+    border-radius: 16px;
+  }
 }
 
 @media (max-width: 767px)  {
-  .container {
-    max-width: 560px;
+  .sale__list {
+    gap: 20px;
+    grid-template-columns: 160px 160px 160px;
+    grid-template-rows: 160px 120px 160px 160px 160px 160px 160px 176px;
+  }
+
+  .sale__laptop {
+    grid-area: 1 / 4 / 3 / 1;
+  }
+
+  .sale__book {
+    grid-area: 3 / 1 / 3 / 1;
+    padding: 78px 14px 14px 9px;
+    background-size: 140%;
+  }
+
+  .sale__discounts {
+    grid-area: 4 / 3 / 4 / 3;
+    padding: 19px 10px 9px 5px;
+    background-size: 153%;
+  }
+
+  .sale__sneakers {
+    grid-area: 3 / 2 / 3 / 4;
+    background-size: 106%;
+  }
+
+  .sale__idea {
+    grid-area: 4 / 1 / 4 / 3;
+    background-size: 100%;
+    background-position-y: -47px;
+  }
+
+  .sale__gift {
+    grid-area: 6 / 1 / 6 / 3;
+    background-size: 100%;
+    padding: 240px 11px 100px 10px;
+  }
+
+  .sale__profitably {
+    grid-area: 5 / 4 / 5 / 2;
+    background-position-y: -31px;
+    background-size: 100%;
+    padding: 81px 10px 10px 20px;
+  }
+
+  .sale__chemical {
+    grid-area: 5 / 1 / 5 / 1;
+    background-size: 154%;
+    background-position-x: -65px;
   }
 }
 

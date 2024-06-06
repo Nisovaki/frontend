@@ -252,6 +252,18 @@
     border-radius: 6px;
   }
 
+  .nav__line {
+    height: 10px;
+    margin-left: 3px;
+    margin-top: -2px;
+  }
+
+  .nav__line-1,
+  .nav__line-2,
+  .nav__line-3 {
+    height: 2px;
+  }
+
   .header__form {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -297,6 +309,8 @@
     width: 30px;
     height: 30px;
     margin-bottom: 0;
+    margin-right: -3px;
+    margin-top: -2px;
   }
 
   .header__basket-img {
