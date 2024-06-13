@@ -1,6 +1,16 @@
 .rest {
-  padding-top: 30px;
+  padding-top: 44px;
   padding-bottom: 50px;
+}
+
+.rest__title {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 42px;
+}
+
+.rest__title-text {
+  margin-left: -10px;
 }
 
 .rest__list {
@@ -31,16 +41,18 @@
 
 .rest__item-glasses {
   background-image: url(../img/vr.jpg);
-  background-position: -16px 0px;
+  background-position: -12px 0px;
 }
 
 .rest__item-audio {
   background-image: url(../img/audio.jpg);
   margin-top: 70px;
+  background-position: 0px -15px;
 }
 
 .rest__item-karaoke {
   background-image: url(../img/micro.jpg);
+  background-position: 0px -12px;
 }
 
 .rest__item-table {
@@ -56,6 +68,6 @@
 
 .rest__item-games {
   background-image: url(../img/sony.jpg);
-  background-position: 0 -30px;
+  background-position: 0 -32px;
   margin-top: -70px;
 }

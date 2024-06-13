@@ -84,7 +84,7 @@ iframe {
   line-height: 40px;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 60px; /* Убрать срочно будет это ошибка */
 }
 
 blockquote {
