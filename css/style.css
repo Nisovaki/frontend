@@ -81,10 +81,11 @@ iframe {
 .title {
   text-align: center;
   font-weight: 700;
-  line-height: 40px;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 60px; /* Убрать срочно будет это ошибка */
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 44px;
 }
 
 blockquote {

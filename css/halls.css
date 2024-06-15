@@ -22,6 +22,7 @@
 
 .halls__item {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .halls__item:not(:nth-child(-1n + 2)) {
@@ -34,6 +35,7 @@
 
 .halls__element-image2 {
   background-image: url(../img/star_wars.jpg);
+  padding: 94px 141px 94px 153px;
 }
 
 .halls__element-image3 {

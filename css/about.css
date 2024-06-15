@@ -1,10 +1,15 @@
 .about {
-  padding-top: 50px;
+  padding-top: 99px;
   padding-bottom: 50px;
+}
+
+.about__title {
+  margin-bottom: 45px;
 }
 
 .about__block {
   display: flex;
+  position: relative;
 }
 
 .about__block-img {
@@ -19,24 +24,44 @@
 .about__author {
   display: flex;
   justify-content: flex-end;
-  margin-right: 60px;
-  margin-top: 39px;
+  margin-right: 44px;
+  margin-top: 31px;
 }
 
 .about__text {
   width: 500px;
-  margin-bottom: 48px;
+  margin-top: 3px;
+  line-height: 27px;
+  margin-bottom: 31px;
+}
+
+.about__text:last-of-type {
+  margin-bottom: 0;
 }
 
 .about__quote {
-  width: 500px;
+  width: 460px;
   text-transform: uppercase;
-  font-size: 44px;
+  margin-top: 58px;
+  font-size: 43.8px;
+  margin-left: 32px;
 }
 
 .about__marks {
   font-weight: 900;
   color: var(--main-btn);
+  font-size: 43px;
+}
+
+.about__marks-1 {
+  position: absolute;
+  top: 45%;
+}
+
+.about__marks-2 {
+  position: absolute;
+  bottom: 20%;
+  right: 9.4%;
 }
 
 .about__author-img {
@@ -45,7 +70,7 @@
   border-radius: 100%;
   object-fit: cover;
   object-position: 0 -9px;
-  margin-right: 40px;
+  margin-right: 31px;
 }
 
 .about__designation {

@@ -26,9 +26,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 40px;
-  padding-left: 40px;
-  padding-top: 166px;
+  padding: 169px 40px 20px 40px;
   transition: 1s;
+  letter-spacing: 0.6px;
 }
 
 .rest__item:hover {
@@ -48,6 +48,11 @@
   background-image: url(../img/audio.jpg);
   margin-top: 70px;
   background-position: 0px -15px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.1px;
+  font-weight: 700;
+  padding: 168px 40px 5px 41px;
 }
 
 .rest__item-karaoke {
@@ -59,11 +64,17 @@
   background-image: url(../img/game.jpg);
   background-position: -17px 0;
   margin-top: -70px;
+  letter-spacing: 1px;
 }
 
 .rest__item-movie {
   background-image: url(../img/netflix.jpg);
   background-position: 0 -90px;
+  padding: 165px 40px 20px 40px;
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.16px;
 }
 
 .rest__item-games {
