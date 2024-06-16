@@ -5,11 +5,11 @@
 
 .reviews__block {
   display: flex;
-  justify-content: space-evenly;
+  margin-left: 8.5%;
 }
 
 .reviews__block:not(:last-child) {
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .reviews__block-img {
@@ -26,7 +26,7 @@
   height: 280px;
   border-radius: 100%;
   object-fit: cover;
-  margin-bottom: 11px;
+  margin-bottom: 15px;
   z-index: -1;
   position: relative;
 }
@@ -40,10 +40,12 @@
 }
 
 .reviews__img-3 {
-  object-position: 0 -75px;
+  object-position: 0 -85px;
 }
 
 .reviews__text {
   width: 680px;
   margin-top: 52px;
+  margin-left: 20px;
+  line-height: 29px;
 }

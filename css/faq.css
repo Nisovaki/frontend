@@ -1,6 +1,10 @@
 .faq {
-  padding-top: 50px;
+  padding-top: 51px;
   padding-bottom: 50px;
+}
+
+.faq__title {
+  margin-bottom: 46px;
 }
 
 .faq__item {
@@ -11,7 +15,7 @@
   color: var(--faq-color);
   font-weight: 700;
   font-size: 24px;
-  padding: 30px 70px;
+  padding: 21px 70px 20px 70px;
   margin-bottom: 20px;
 }
 

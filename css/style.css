@@ -1,6 +1,7 @@
 html {
   position: relative;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -91,3 +92,4 @@ iframe {
 blockquote {
   margin: 0;
 }
+

@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header header-size">
       <div class="container">
         <nav class="nav">
           <div class="nav__logo">
@@ -71,14 +71,14 @@
 
         <a href="#" class="header__btn">Забронировать</a>
 
-        <a class="header__down" href="#"></a>
+        <a class="header__down" href="#six"></a>
       </div>
     </header>
 
     <main>
       <section class="rest">
         <div class="container">
-          <h2 class="rest__title title">
+          <h2 class="rest__title title" id="six">
             <span class="rest__title-text">У нас есть все для классного </span><br />
             отдыха с друзьями!
           </h2>
@@ -168,9 +168,8 @@
           <h2 class="booking__title title" id="three">
             Забронировать зал просто
           </h2>
-          <!-- action="https://jsonplaceholder.typicode.com/posts" -->
           <form
-            action="#"
+            action="https://jsonplaceholder.typicode.com/posts"
             method="post"
             class="booking__from"
           >
@@ -182,7 +181,7 @@
                   class="booking__btn booking__btn-1"
                   name="btn"
                   value="80s_vibes"
-                  type="submit"
+                  type="button"
                 >
                   80&rsquo;s vibes
                 </button>
@@ -191,7 +190,7 @@
                   class="booking__btn booking__btn-2"
                   name="btn"
                   value="star_wars"
-                  type="submit"
+                  type="button"
                 >
                   Star wars
                 </button>
@@ -200,7 +199,7 @@
                   class="booking__btn booking__btn-3"
                   name="btn"
                   value="wild_west"
-                  type="submit"
+                  type="button"
                 >
                   Wild west
                 </button>
@@ -209,7 +208,7 @@
                   class="booking__btn booking__btn-4"
                   name="btn"
                   value="neon_style"
-                  type="submit"
+                  type="button"
                 >
                   Neon style
                 </button>
@@ -344,8 +343,6 @@
 
               <div class="booking__info-list">
                 <label class="booking__info-component">
-                  <!-- Стилизовала Дату, Время, Сколько человек... Как связать input и label пока не знаю -->
-
                   <!-- required -->
                   <input
                     type="date"
@@ -366,7 +363,6 @@
 
                 <label class="booking__info-item">
                   <span class="booking__info-txt">Имя</span>
-
                   <!-- required -->
                   <input
                     type="text"
@@ -490,7 +486,7 @@
             </div>
             <p class="reviews__text">
               Отмечали здесь день рождения с компанией друзей, все было очень
-              круто! VR очки это было просто бомба, никогда еще я не был в таком
+              круто! VR очки это просто бомба, никогда еще я не был в таком
               полном игровом погружении. Сервис на высоте!
             </p>
           </div>
@@ -507,7 +503,7 @@
               <p class="reviews__name">Оксана Григорьева</p>
             </div>
             <p class="reviews__text">
-              Были в комнате дикий запад, пели в караоке под Шакиру, отличный
+              Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный
               получился корпоратив! У нас в городе больше нет подобных
               заведений.
             </p>
@@ -525,7 +521,7 @@
               <p class="reviews__name">Никита Ященко</p>
             </div>
             <p class="reviews__text">
-              Немного подвисла игра в VR очках, а так все норм. Крутое <br />
+              Немного подвисала игра в VR очках, а так все норм. Крутое <br />
               оформление комнаты в стиле звездных войн, попал в атмосферу
               космоса.
             </p>
@@ -568,9 +564,9 @@
                   fill="#CD06FF"
                 />
               </svg>
-              <p class="footer__text">
+              <p class="footer__text footer__text-adress">
                 г. Москва <br />
-                ул. Аквамарина, 16
+                ул. Усачёва, 29 к3
               </p>
             </div>
 
@@ -585,7 +581,7 @@
                   fill="#CD06FF"
                 />
               </svg>
-              <a href="tel:89509302893" class="footer__link">8(950)930-28-93</a>
+              <a href="tel:89509302893" class="footer__link footer__text">8 (950) 930 - 28 - 93</a>
             </div>
 
             <div class="footer__mail">
@@ -599,7 +595,7 @@
                   fill="#CD06FF"
                 />
               </svg>
-              <a href="mailto:GameOver@gmail.com" class="footer__link"
+              <a href="mailto:GameOver@gmail.com" class="footer__text-email footer__text"
                 >GameOver@gmail.com</a
               >
             </div>

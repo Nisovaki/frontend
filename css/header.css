@@ -1,7 +1,10 @@
 .header {
-  height: 1026px;
   padding-top: 29px;
   padding-bottom: 50px;
+}
+
+.header-size {
+  height: 1026px;
 }
 
 .header__title {
@@ -48,7 +51,24 @@
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  
+}
+
+.nav__menu-item:hover {
+  color: var(--main-bordering);
+  transition-duration: 0.7s, 0.7s;
+  transition-property: color;
+}
+
+.nav__menu-item:active {
+  color: var(--main-extension);
+  transition-duration: 0.7s, 0.7s;
+  transition-property: color;
+}
+
+.nav__menu-item:focus {
+  border-bottom: 1px solid var(--main-extension);
+  transition-duration: 0.7s, 0.7s;
+  transition-property: color;
 }
 
 .nav__link {

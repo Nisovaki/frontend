@@ -1,28 +1,51 @@
 .footer {
   padding-top: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  background: linear-gradient(180deg, var(--main-background) 0%, var(--line-color) 100%);
 }
 
 .footer__block {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 156px;
+  margin-bottom: 143px;
+}
+
+.footer__block-text {
+  margin-top: 3px;
 }
 
 .footer__address {
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 41px;
+  margin-left: -1px;
 }
 
 .footer__map {
-  margin-right: 31px;
+  margin-right: 27px;
 }
 
 .footer__tube {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+}
+
+.footer__text {
+  line-height: 28px;
+  font-size: 23.2px;
+}
+
+.footer__text-adress {
+  letter-spacing: 0.95px;
+}
+
+.footer__link {
+  letter-spacing: 0.4px;
+}
+
+.footer__text-email {
+  letter-spacing: 1.1px;
 }
 
 .footer__phone {
@@ -35,19 +58,21 @@
 }
 
 .footer__email {
-  margin-right: 25px;
+  margin-right: 23px;
+  margin-left: 2px;
 }
 
 .footer__social {
   display: flex;
   justify-content: space-between;
-  width: 280px;
-  margin-top: 35px;
+  width: 278px;
+  margin-top: 37px;
 }
 
 .footer__copy {
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 .footer__copy-block {
