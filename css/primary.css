@@ -1,0 +1,33 @@
+.primary {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.primary__vibes {
+  background-image: url('../img/viber_fon.jpg');
+  background-position-y: 25%;
+  padding: 324px 380px 322px 490px;
+}
+
+.primary__star {
+  background-image: url('../img/star_fon.jpg');
+  padding: 324px 380px 322px 464px;
+}
+
+.primary__wild {
+  background-image: url('../img/wild_fon.jpg');
+  padding: 324px 380px 322px 473px;
+}
+
+.primary__neon {
+  background-image: url('../img/neon_fon.jpg');
+  padding: 324px 380px 322px 442px;
+  background-size: 100%;
+}
+
+.primary__title {
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

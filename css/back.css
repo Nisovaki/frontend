@@ -1,0 +1,51 @@
+.back__link {
+  margin-bottom: 18.8px;
+}
+
+.back__link {
+  display: flex;
+  justify-content: space-between;
+  width: 228px;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  align-items: center;
+}
+
+.back__arrow{
+  display: inline-block;
+  position :relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.back__arrow:after{
+  position: absolute;
+  display: block;
+  content: "";
+  color: var(--main-txt-color);
+  width: 26px;
+  height: 15px;
+  top: 0px;
+  border-bottom: solid 2px;
+  transform: translatex(4px);
+}
+
+.back__arrow:before{
+  position: absolute;
+  display: block;
+  content: "";
+  color: var(--main-txt-color);
+  width: 10px;
+  height: 10px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  top: 46%;
+  left: 1px;
+  transform-origin: 0% 0%;
+  transform: rotatez(-45deg);
+}
+

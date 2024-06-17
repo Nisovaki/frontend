@@ -1,6 +1,8 @@
 @import 'normalize.css';
 @import 'style.css';
 @import 'header.css';
-
+@import 'back.css';
+@import 'primary.css';
+@import 'description.css';
 @import 'footer.css';
 @import 'var.css';
