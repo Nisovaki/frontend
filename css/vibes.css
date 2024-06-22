@@ -4,5 +4,8 @@
 @import 'back.css';
 @import 'primary.css';
 @import 'description.css';
+@import 'room.css';
+@import 'halls.css';
+@import 'other.css';
 @import 'footer.css';
 @import 'var.css';

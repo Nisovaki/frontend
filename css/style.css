@@ -86,9 +86,41 @@ iframe {
   margin: 0;
   font-size: 40px;
   line-height: 50px;
-  margin-bottom: 44px;
 }
 
 blockquote {
   margin: 0;
+}
+
+.block__tabs:hover {
+  color: var(--main-bordering);
+  transition-duration: 0.7s, 0.7s;
+  transition-property: color;
+}
+
+.block__tabs:active {
+  color: var(--main-extension);
+  transition-duration: 0.7s, 0.7s;
+  transition-property: color;
+}
+
+.block__tabs:focus {
+  border-bottom: 1px solid var(--main-extension);
+  transition-duration: 0.7s, 0.7s;
+  transition-property: color;
+  margin-bottom: -1px;
+}
+
+.block__increase:hover {
+  transform: scale(1.1);
+}
+
+.big__letter {
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 965px;
+  }
 }

@@ -1,0 +1,30 @@
+.room {
+  margin-bottom: 100px;
+}
+
+.room__title {
+  margin-bottom: 40px;
+}
+
+.room__block {
+  display: flex;
+}
+
+.room__img {
+  margin-right: 81px;
+}
+
+.room__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.room__text {
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+.room__text:last-of-type {
+  margin-bottom: 0;
+}

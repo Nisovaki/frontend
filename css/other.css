@@ -1,0 +1,25 @@
+.other {
+  margin-bottom: 62px;
+}
+
+.other__title {
+  margin-bottom: 40px;
+}
+
+.other__list {
+  flex-wrap: nowrap;
+}
+
+.other__element {
+  width: 380px;
+  height: 229px;
+  padding: 80px 130px;
+  font-size: 30px;
+}
+
+.other__element-image1 {
+  padding: 98px 105px;
+  background-size: 117% 115%;
+  background-position-x: 48%;
+  background-position-y: 52%;
+}

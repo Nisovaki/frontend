@@ -1,3 +1,7 @@
+.description {
+  margin-bottom: 100px;
+}
+
 .description__text {
   text-align: center;
   width: 1000px;

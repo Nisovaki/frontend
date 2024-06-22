@@ -3,6 +3,10 @@
   padding-bottom: 50px;
 }
 
+.reviews__title {
+  margin-bottom: 44px;
+}
+
 .reviews__block {
   display: flex;
   margin-left: 8.5%;

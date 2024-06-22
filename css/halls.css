@@ -3,6 +3,10 @@
   padding-bottom: 100px;
 }
 
+.halls__title {
+  margin-bottom: 44px;
+}
+
 .halls__element {
   width: 580px;
   height: 349px;
@@ -23,6 +27,7 @@
 .halls__item {
   margin-bottom: 20px;
   text-transform: uppercase;
+  transition: 1s;
 }
 
 .halls__item:not(:nth-child(-1n + 2)) {

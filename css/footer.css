@@ -4,6 +4,15 @@
   background: linear-gradient(180deg, var(--main-background) 0%, var(--line-color) 100%);
 }
 
+.footer__cont {
+  padding-left: 14px;
+  padding-bottom: 43px;
+}
+
+.footer__title {
+  margin-bottom: 44px;
+}
+
 .footer__block {
   display: flex;
   justify-content: space-between;
@@ -48,6 +57,10 @@
   letter-spacing: 1.1px;
 }
 
+.footer__text-ls {
+  letter-spacing: 0.5px;
+}
+
 .footer__phone {
   margin-right: 25px;
 }
@@ -82,11 +95,11 @@
 }
 
 .footer__copy-link {
-  margin-bottom: 6px;
+  margin-top: 6px;
 }
 
-.footer__copy-link:last-child {
-  margin-bottom: 0;
+.footer__copy-link:first-child {
+  margin-top: 0;
 }
 
 .footer__social-link {
