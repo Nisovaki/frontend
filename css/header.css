@@ -44,6 +44,15 @@
   align-items: center;
 }
 
+.nav__svg {
+  width: 120px;
+  height: 66px;
+}
+
+.nav__svg-lr {
+  display: none;
+}
+
 .nav-size {
   margin-bottom: 10.5px;
 }
@@ -165,12 +174,21 @@
 }
 
 @media (max-width: 1024px) {
+  .nav {
+    margin-bottom: 29px;
+  }
+
   .nav__svg {
-    transform: scale(0.84);
+    display: none;
+  }
+
+  .nav__svg-lr {
+    display: block;
   }
 
   .nav__menu {
-    min-width: 400px;
+    min-width: 429px;
+    margin-bottom: 3px;
   }
 
   .nav__menu-item {
@@ -178,10 +196,74 @@
   }
 
   .nav__link {
-    padding: 11px 23px 9px 24px;
+    padding: 11px 26px 9px 24px;
     font-size: 18px;
     letter-spacing: 0.6px;
     margin-bottom: 0;
   }
 
+  .header-size {
+    height: 747px;
+  }
+
+  .header__title {
+    font-size: 121px;
+    letter-spacing: -13px;
+    margin-bottom: 19px;
+  }
+
+  .header__title::after {
+    background-size: 457px 520px;
+    width: 457px;
+    height: 520px;
+    top: 64px;
+  }
+
+  .header__subtitle {
+    font-size: 22px;
+    letter-spacing: -0.1px;
+    margin-bottom: 30px;
+  }
+
+  .header__txt {
+    margin-bottom: 98px;
+  }
+
+  .header__txt-block {
+    width: 182px;
+  }
+
+  .header__txt-sub {
+    font-size: 80px;
+    line-height: 117.02px;
+  }
+
+  .header__txt-text {
+    font-size: 26px;
+    margin-left: 1px;
+  }
+
+  .header__txt-fs {
+    font-size: 46px;
+    margin-top: 43px;
+    letter-spacing: 4px;
+    margin-left: 9px;
+    line-height: 71.02px;
+  }
+
+  .header__btn {
+    font-size: 22px;
+    padding: 19px 49px 19px 49px;
+    margin-left: 37px;
+  }
+
+  .header__down {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -28px;
+    margin-left: 46%;
+    margin-right: 49.7%;
+    width: 67px;
+    height: 67px;
+  }
 }

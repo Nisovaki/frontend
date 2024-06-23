@@ -50,3 +50,23 @@
 .halls__element-image4 {
   background-image: url(../img/neon_style.jpg);
 }
+
+@media (max-width: 1024px) {
+  .halls {
+    padding-top: 29px;
+    padding-bottom: 70px;
+  }
+
+  .halls__title {
+    margin-bottom: 35px;
+  }
+
+  .halls__element {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+    font-size: 50px;
+    padding: 73px 111px;
+    line-height: 59px;
+  }
+}

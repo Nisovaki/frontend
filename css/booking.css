@@ -392,3 +392,105 @@
   right: 29px;
   top: 47%;
 }
+
+@media (max-width: 1024px) {
+  .booking {
+    padding-top: 57px;
+    padding-bottom: 60px;
+  }
+
+  .booking__title {
+    margin-bottom: 41px;
+    margin-left: -3px;
+  }
+
+  .booking__subtitle {
+    margin-bottom: 27px;
+  }
+
+  .booking__btn {
+    font-size: 20px;
+    border-radius: 6px;
+  }
+
+  .booking__btn-1 {
+    padding: 7px 34px 8px 33px;
+  }
+
+  .booking__btn-2 {
+    padding: 4px 29px 4px 29px;
+  }
+
+  .booking__btn-3 {
+    padding: 4px 30px 4px 30px;
+  }
+
+  .booking__btn-4 {
+    padding: 7px 25px 8px 25px;
+    margin-right: 2px;
+  }
+
+  .booking__list-1 {
+    margin-left: 0px;
+  }
+
+  .booking__list-2 {
+    margin-right: 7px;
+  }
+
+  .booking__list-3 {
+    margin-right: 69px;
+  }
+
+  .booking__info-component {
+    margin-left: 0px;
+    width: 299px;
+  }
+
+  .booking__info-number {
+    margin-left: 0;
+    margin-top: 22px;
+  }
+
+  .booking__info-phone {
+    margin-right: 0px;
+  }
+
+  .booking__info-email {
+    margin-right: 0px;
+  }
+
+  .booking__info-date + label::before {
+    padding: 17px 19px;
+  }
+
+  .booking__info-date + label::after {
+    right: 31px;
+    top: 46%;
+  }
+
+  .booking__info-inp {
+    width: 257px;
+  }
+
+  .booking__info-name {
+    width: 252px;
+  }
+
+  .booking__info-family {
+    width: 252px;
+  }
+
+  .booking__block-3 {
+    margin-bottom: 35px;
+  }
+
+  .booking__from-button {
+    margin-right: 2px;
+  }
+
+  .booking__from-btn {
+    font-size: 18px;
+    padding: 13.5px 44px;
+  }
+}

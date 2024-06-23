@@ -80,3 +80,61 @@
 .about__author-text {
   line-height: 28px;
 }
+
+@media (max-width: 1024px) {
+  .about {
+    padding-top: 68px;
+  }
+
+  .about__block {
+    justify-content: space-between;
+  }
+
+  .about__title {
+    margin-bottom: 26px;
+  }
+
+  .about__text {
+    width: 444px;
+    font-size: 18px;
+    margin-top: 0px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  .about__block-text {
+    width: 446px;
+  }
+
+  .about__quote {
+    font-size: 30px;
+  }
+
+  .about__block-img {
+    margin-right: 0px;
+    width: 420px;
+  }
+
+  .about__marks-1 {
+    font-size: 31px;
+    top: 49%;
+    right: 47.5%;
+  }
+
+  .about__quote-br {
+    display: none;
+  }
+
+  .about__quote {
+    margin-left: 25px;
+    line-height: 36px;
+    margin-top: 39px;
+    width: 400px;
+  }
+
+  .about__marks-2 {
+    bottom: 26%;
+    right: 19.5%;
+    font-size: 31px;
+  }
+}

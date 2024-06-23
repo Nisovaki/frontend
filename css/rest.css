@@ -4,8 +4,6 @@
 }
 
 .rest__title {
-  font-size: 40px;
-  line-height: 50px;
   margin-bottom: 42px;
 }
 
@@ -77,4 +75,53 @@
   background-image: url(../img/sony.jpg);
   background-position: 0 -32px;
   margin-top: -70px;
+}
+
+@media (max-width: 1024px) {
+  .rest {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .rest__title {
+    margin-bottom: 36px;
+  }
+
+  .rest__item {
+    width: 287px;
+    height: 172px;
+    margin-bottom: 30px;
+    padding: 116px 36px 3px 18px;
+  }
+
+  .rest__item-glasses {
+    background-position: -10px 0px;
+  }
+
+  .rest__item-table {
+    background-position: -13px 0;
+    margin-top: -53px;
+  }
+
+  .rest__item-audio {
+    margin-top: 52px;
+    background-position: 0px -10px;
+  }
+
+  .rest__item-karaoke {
+    background-position: -2px -11px;
+  }
+
+  .rest__item-movie {
+    padding: 83px 23px 11px 19px;
+    background-position: 0 -68px;
+  }
+
+  .rest__item-games {
+    margin-top: -53px;
+  }
+
+  .rest__br {
+    display: none;
+  }
 }
