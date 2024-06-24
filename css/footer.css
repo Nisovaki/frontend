@@ -45,6 +45,10 @@
   font-size: 23.2px;
 }
 
+.footer__text-phone2 {
+  display: none;
+}
+
 .footer__text-adress {
   letter-spacing: 0.95px;
 }
@@ -162,4 +166,68 @@
 .footer__social-link:focus {
   outline: 1px solid var(--main-extension);
   outline-offset: 1px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding-top: 30px;
+  }
+
+  .footer__title {
+    margin-bottom: 26px;
+  }
+
+  .footer__block-m {
+    width: 542px;
+    height: 273px;
+  }
+
+  .footer__block {
+    margin-bottom: 91px;
+  }
+
+  .footer__map,
+  .footer__phone,
+  .footer__email {
+    width: 26px;
+  }
+
+  .footer__block-text {
+    margin-top: 0px;
+  }
+
+  .footer__map {
+    margin-right: 13px;
+  }
+
+  .footer__address {
+    margin-bottom: 47px;
+  }
+
+  .footer__text-phone1 {
+    display: none;
+  }
+
+  .footer__email {
+    margin-right: 14px;
+    margin-left: 0px;
+  }
+
+  .footer__social-link {
+    background-size: 40px;
+  }
+
+  .footer__social {
+    margin-top: 40px;
+    width: 247px;
+  }
+
+  .footer__copy-block {
+    margin-top: -3px;
+  }
+
+  .footer__copy {
+    margin-right: 3px;
+    margin-left: -1px;
+  }
 }

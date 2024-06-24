@@ -12,6 +12,12 @@
     <header class="header header-size">
       <div class="container">
         <nav class="nav">
+          <button class="nav__menu-burger">
+            <span class="nav__menu-line"></span>
+            <span class="nav__menu-line"></span>
+            <span class="nav__menu-line nav__line-size"></span>
+          </button>
+
           <div class="nav__logo">
             <svg class="nav__svg" viewBox="0 0 120 66">
               <path
@@ -29,16 +35,22 @@
             </svg>
 
             <svg class="nav__svg-lr" width="87" height="55" viewBox="0 0 87 55">
-            <path d="M27.3242 33.6289V27.6719H40.9961V39.8789C38.3789 41.6628 36.0612 42.8802 34.043 43.5312C32.0378 44.1693 29.6549 44.4883 26.8945 44.4883C23.4961 44.4883 20.7227 43.9089 18.5742 42.75C16.4388 41.5911 14.7786 39.8659 13.5938 37.5742C12.4219 35.2826 11.8359 32.6523 11.8359 29.6836C11.8359 26.5586 12.4805 23.8438 13.7695 21.5391C15.0586 19.2214 16.9466 17.4635 19.4336 16.2656C21.3737 15.3411 23.9844 14.8789 27.2656 14.8789C30.4297 14.8789 32.793 15.1654 34.3555 15.7383C35.931 16.3112 37.2331 17.2031 38.2617 18.4141C39.3034 19.612 40.0846 21.1354 40.6055 22.9844L32.0703 24.5078C31.7188 23.4271 31.1198 22.6003 30.2734 22.0273C29.4401 21.4544 28.3724 21.168 27.0703 21.168C25.1302 21.168 23.5807 21.8451 22.4219 23.1992C21.276 24.5404 20.7031 26.6693 20.7031 29.5859C20.7031 32.6849 21.2826 34.8984 22.4414 36.2266C23.6133 37.5547 25.2409 38.2188 27.3242 38.2188C28.3138 38.2188 29.2578 38.0755 30.1562 37.7891C31.0547 37.5026 32.0833 37.0143 33.2422 36.3242V33.6289H27.3242Z" fill="white"/>
-            <path d="M45.1367 29.7031C45.1367 25.0286 46.4388 21.3893 49.043 18.7852C51.6471 16.181 55.2734 14.8789 59.9219 14.8789C64.6875 14.8789 68.3594 16.1615 70.9375 18.7266C73.5156 21.2786 74.8047 24.8594 74.8047 29.4688C74.8047 32.8151 74.2383 35.5625 73.1055 37.7109C71.9857 39.8464 70.3581 41.513 68.2227 42.7109C66.1003 43.8958 63.4505 44.4883 60.2734 44.4883C57.0443 44.4883 54.3685 43.974 52.2461 42.9453C50.1367 41.9167 48.4245 40.2891 47.1094 38.0625C45.7943 35.8359 45.1367 33.0495 45.1367 29.7031ZM53.9844 29.7422C53.9844 32.6328 54.5182 34.7096 55.5859 35.9727C56.6667 37.2357 58.1315 37.8672 59.9805 37.8672C61.8815 37.8672 63.3529 37.2487 64.3945 36.0117C65.4362 34.7747 65.957 32.5547 65.957 29.3516C65.957 26.6562 65.4102 24.6901 64.3164 23.4531C63.2357 22.2031 61.7643 21.5781 59.9023 21.5781C58.1185 21.5781 56.6862 22.2096 55.6055 23.4727C54.5247 24.7357 53.9844 26.8255 53.9844 29.7422Z" fill="white"/>
-            <path d="M0 23H1V55H0V23Z" fill="#CD06FF"/>
-            <path d="M0 55V54H51V55H0Z" fill="#CD06FF"/>
-            <path d="M87 32H86V0H87V32Z" fill="#CD06FF"/>
-            <path d="M87 0V1H36V0H87Z" fill="#CD06FF"/>
+              <path
+                d="M27.3242 33.6289V27.6719H40.9961V39.8789C38.3789 41.6628 36.0612 42.8802 34.043 43.5312C32.0378 44.1693 29.6549 44.4883 26.8945 44.4883C23.4961 44.4883 20.7227 43.9089 18.5742 42.75C16.4388 41.5911 14.7786 39.8659 13.5938 37.5742C12.4219 35.2826 11.8359 32.6523 11.8359 29.6836C11.8359 26.5586 12.4805 23.8438 13.7695 21.5391C15.0586 19.2214 16.9466 17.4635 19.4336 16.2656C21.3737 15.3411 23.9844 14.8789 27.2656 14.8789C30.4297 14.8789 32.793 15.1654 34.3555 15.7383C35.931 16.3112 37.2331 17.2031 38.2617 18.4141C39.3034 19.612 40.0846 21.1354 40.6055 22.9844L32.0703 24.5078C31.7188 23.4271 31.1198 22.6003 30.2734 22.0273C29.4401 21.4544 28.3724 21.168 27.0703 21.168C25.1302 21.168 23.5807 21.8451 22.4219 23.1992C21.276 24.5404 20.7031 26.6693 20.7031 29.5859C20.7031 32.6849 21.2826 34.8984 22.4414 36.2266C23.6133 37.5547 25.2409 38.2188 27.3242 38.2188C28.3138 38.2188 29.2578 38.0755 30.1562 37.7891C31.0547 37.5026 32.0833 37.0143 33.2422 36.3242V33.6289H27.3242Z"
+                fill="white"
+              />
+              <path
+                d="M45.1367 29.7031C45.1367 25.0286 46.4388 21.3893 49.043 18.7852C51.6471 16.181 55.2734 14.8789 59.9219 14.8789C64.6875 14.8789 68.3594 16.1615 70.9375 18.7266C73.5156 21.2786 74.8047 24.8594 74.8047 29.4688C74.8047 32.8151 74.2383 35.5625 73.1055 37.7109C71.9857 39.8464 70.3581 41.513 68.2227 42.7109C66.1003 43.8958 63.4505 44.4883 60.2734 44.4883C57.0443 44.4883 54.3685 43.974 52.2461 42.9453C50.1367 41.9167 48.4245 40.2891 47.1094 38.0625C45.7943 35.8359 45.1367 33.0495 45.1367 29.7031ZM53.9844 29.7422C53.9844 32.6328 54.5182 34.7096 55.5859 35.9727C56.6667 37.2357 58.1315 37.8672 59.9805 37.8672C61.8815 37.8672 63.3529 37.2487 64.3945 36.0117C65.4362 34.7747 65.957 32.5547 65.957 29.3516C65.957 26.6562 65.4102 24.6901 64.3164 23.4531C63.2357 22.2031 61.7643 21.5781 59.9023 21.5781C58.1185 21.5781 56.6862 22.2096 55.6055 23.4727C54.5247 24.7357 53.9844 26.8255 53.9844 29.7422Z"
+                fill="white"
+              />
+              <path d="M0 23H1V55H0V23Z" fill="#CD06FF" />
+              <path d="M0 55V54H51V55H0Z" fill="#CD06FF" />
+              <path d="M87 32H86V0H87V32Z" fill="#CD06FF" />
+              <path d="M87 0V1H36V0H87Z" fill="#CD06FF" />
             </svg>
           </div>
 
-          <ul class="nav__menu">
+          <!-- <ul class="nav__menu">
             <li class="nav__menu-list">
               <a class="nav__menu-item block__tabs" href="#one">Залы</a>
             </li>
@@ -58,7 +70,7 @@
             <li class="nav__menu-list">
               <a class="nav__menu-item block__tabs" href="#five">Контакты</a>
             </li>
-          </ul>
+          </ul> -->
 
           <a href="#" class="nav__link">Заказать звонок</a>
         </nav>
@@ -88,12 +100,15 @@
       <section class="rest">
         <div class="container">
           <h2 class="rest__title title" id="six">
-            <span class="rest__title-text">У нас есть все для классного </span><br />
+            <span class="rest__title-text">У нас есть все для классного </span
+            ><br />
             отдыха с друзьями!
           </h2>
 
           <div class="rest__list">
-            <a href="#" class="rest__item rest__item-glasses block__increase"> VR очки </a>
+            <a href="#" class="rest__item rest__item-glasses block__increase">
+              VR очки
+            </a>
 
             <a href="#" class="rest__item rest__item-audio block__increase">
               Аудио-система 5.1 <br />
@@ -104,14 +119,18 @@
               Караоке (4 микрофона)
             </a>
 
-            <a href="" class="rest__item rest__item-table block__increase"> Настольные игры </a>
+            <a href="" class="rest__item rest__item-table block__increase">
+              Настольные игры
+            </a>
 
             <a href="" class="rest__item rest__item-movie block__increase">
               Кино сервисы Netflix, IVI, <br class="rest__br" />
               MegoGo, КиноПоиск, Okko
             </a>
 
-            <a href="#" class="rest__item rest__item-games block__increase"> PlayStation 5 </a>
+            <a href="#" class="rest__item rest__item-games block__increase">
+              PlayStation 5
+            </a>
           </div>
         </div>
       </section>
@@ -225,11 +244,15 @@
             </div>
 
             <div class="booking__block-2">
-              <h3 class="booking__subtitle booking__subtitle-mg">Собери набор развлечений</h3>
+              <h3 class="booking__subtitle booking__subtitle-mg">
+                Собери набор развлечений
+              </h3>
 
               <div class="booking__appearance">
                 <div class="booking__list booking__list-1">
-                  <h4 class="booking__list-subtitle booking__list-subtitle-ls">Приставка:</h4>
+                  <h4 class="booking__list-subtitle booking__list-subtitle-ls">
+                    Приставка:
+                  </h4>
                   <label class="booking__item-radio">
                     <input
                       type="radio"
@@ -276,7 +299,9 @@
                 </div>
 
                 <div class="booking__list booking__list-2">
-                  <h4 class="booking__list-subtitle booking__list-subtitle-ls">Настольные игры</h4>
+                  <h4 class="booking__list-subtitle booking__list-subtitle-ls">
+                    Настольные игры
+                  </h4>
                   <label class="booking__item-checkbox">
                     <input
                       type="checkbox"
@@ -322,7 +347,9 @@
                 </div>
 
                 <div class="booking__list booking__list-3">
-                  <h4 class="booking__list-subtitle booking__list-subtitle-ls">Дополнительно</h4>
+                  <h4 class="booking__list-subtitle booking__list-subtitle-ls">
+                    Дополнительно
+                  </h4>
                   <label class="booking__item-checkbox">
                     <input
                       type="checkbox"
@@ -333,7 +360,9 @@
                     Караоке
                   </label>
 
-                  <label class="booking__item-checkbox booking__item-checkbox-mt">
+                  <label
+                    class="booking__item-checkbox booking__item-checkbox-mt"
+                  >
                     <input
                       type="checkbox"
                       name="additionally"
@@ -348,7 +377,9 @@
             </div>
 
             <div class="booking__block-3">
-              <h3 class="booking__subtitle booking__subtitle-bl3">Выбери дату и время</h3>
+              <h3 class="booking__subtitle booking__subtitle-bl3">
+                Выбери дату и время
+              </h3>
 
               <div class="booking__info-list">
                 <label class="booking__info-component">
@@ -362,11 +393,7 @@
                   <label for="date" class="booking__date-label"></label>
 
                   <!-- required -->
-                  <input
-                    type="time"
-                    name="time"
-                    class="booking__info-time"
-                  />
+                  <input type="time" name="time" class="booking__info-time" />
                   <label for="time" class="booking__date-label"></label>
                 </label>
 
@@ -445,7 +472,8 @@
             <div class="about__block-text">
               <p class="about__text">
                 Для наших гостей мы создали концептуально новое игровое
-                пространство виртуальной реальности <br> в центральной части города.
+                пространство виртуальной реальности <br />
+                в центральной части города.
               </p>
               <p class="about__text">
                 Каждый день мы стараемся создавать <br />
@@ -543,7 +571,9 @@
           <h2 class="faq__title title">Частые вопросы</h2>
 
           <ul class="faq__list">
-            <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
+            <li class="faq__item faq__item-pg">
+              Можно ли забронировать комнату онлайн?
+            </li>
 
             <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
 
@@ -552,6 +582,7 @@
             <li class="faq__item">Как получить VIP карту?</li>
 
             <li class="faq__item">Какая комната самая популярная?</li>
+            <!-- В макете этот пункт отсутствует, я не стала убирать его -->
           </ul>
         </div>
       </section>
@@ -563,7 +594,12 @@
         <div class="footer__block">
           <div class="footer__block-text">
             <div class="footer__address">
-              <svg width="35" height="32" class="footer__map">
+              <svg
+                width="35"
+                height="32"
+                class="footer__map"
+                viewBox="0 0 35 32"
+              >
                 <path
                   d="M17.4815 0C11.338 0 6.21411 4.52938 6.21411 10.3125C6.21411 12.5126 6.93645 14.4745 8.32275 16.3129L16.6192 28.1616C17.0217 28.7376 17.9421 28.7365 18.3437 28.1616L26.6762 16.2726C28.0326 14.5175 28.7488 12.4567 28.7488 10.3125C28.7488 4.62619 23.6943 0 17.4815 0ZM17.4815 15C14.6576 15 12.3599 12.8971 12.3599 10.3125C12.3599 7.72794 14.6576 5.625 17.4815 5.625C20.3053 5.625 22.603 7.72794 22.603 10.3125C22.603 12.8971 20.3053 15 17.4815 15Z"
                   fill="#CD06FF"
@@ -580,7 +616,12 @@
             </div>
 
             <div class="footer__tube">
-              <svg width="35" height="32" class="footer__phone">
+              <svg
+                width="35"
+                height="32"
+                class="footer__phone"
+                viewBox="0 0 35 32"
+              >
                 <path
                   d="M29.1358 14.6654H32.0494C32.0494 7.82541 26.4072 2.66675 18.9237 2.66675V5.33341C24.8412 5.33341 29.1358 9.25741 29.1358 14.6654Z"
                   fill="#CD06FF"
@@ -590,11 +631,25 @@
                   fill="#CD06FF"
                 />
               </svg>
-              <a href="tel:89509302893" class="footer__link footer__text block__tabs">8 (950) 930 - 28 - 93</a>
+              <a
+                href="tel:89509302893"
+                class="footer__link footer__text block__tabs footer__text-phone1"
+                >8 (950) 930 - 28 - 93</a
+              >
+              <a
+                href="tel:89509302893"
+                class="footer__link footer__text block__tabs footer__text-phone2"
+                >8 (950) 930-28-93</a
+              >
             </div>
 
             <div class="footer__mail">
-              <svg width="36" height="32" class="footer__email">
+              <svg
+                width="36"
+                height="32"
+                class="footer__email"
+                viewBox="0 0 36 32"
+              >
                 <path
                   d="M1.10021 5.94725C5.89873 9.66669 14.3187 16.2103 16.7934 18.2506C17.1256 18.526 17.4819 18.666 17.8518 18.666C18.221 18.666 18.5767 18.5273 18.9082 18.2533C21.385 16.2109 29.8049 9.66669 34.6035 5.94725C34.9023 5.71612 34.9478 5.30987 34.706 5.02731C34.1468 4.37437 33.3132 4 32.4197 4H3.28396C2.39056 4 1.55684 4.37438 0.997775 5.02738C0.755902 5.30988 0.80145 5.71612 1.10021 5.94725Z"
                   fill="#CD06FF"
@@ -604,32 +659,51 @@
                   fill="#CD06FF"
                 />
               </svg>
-              <a href="mailto:GameOver@gmail.com" class="footer__text-email footer__text block__tabs"
+              <a
+                href="mailto:GameOver@gmail.com"
+                class="footer__text-email footer__text block__tabs"
                 >GameOver@gmail.com</a
               >
             </div>
 
             <ul class="footer__social">
               <li class="footer__social-item">
-                <a href="https://vk.com/" target="_blank" class="footer__social-link footer__social-vk"></a>
+                <a
+                  href="https://vk.com/"
+                  target="_blank"
+                  class="footer__social-link footer__social-vk"
+                ></a>
               </li>
 
               <li class="footer__social-item">
-                <a href="https://telegram.org/desktop" target="_blank" class="footer__social-link footer__social-tg"></a>
+                <a
+                  href="https://telegram.org/desktop"
+                  target="_blank"
+                  class="footer__social-link footer__social-tg"
+                ></a>
               </li>
 
               <li class="footer__social-item">
-                <a href="https://ru.pinterest.com/" target="_blank" class="footer__social-link footer__social-pt"></a>
+                <a
+                  href="https://ru.pinterest.com/"
+                  target="_blank"
+                  class="footer__social-link footer__social-pt"
+                ></a>
               </li>
 
               <li class="footer__social-item">
-                <a href="https://ya.ru/" target="_blank" class="footer__social-link footer__social-ya footer__social-ya-f"></a>
+                <a
+                  href="https://ya.ru/"
+                  target="_blank"
+                  class="footer__social-link footer__social-ya footer__social-ya-f"
+                ></a>
               </li>
             </ul>
           </div>
 
           <div class="footer__block-map">
             <iframe
+              class="footer__block-m"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.3142807522763!2d37.60746707151834!3d55.720385578814174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b12d65c884b%3A0x8dc6207b1d8f9f2d!2z0YPQuy4g0KjQsNCx0L7Qu9C-0LLQutCwLCDQnNC-0YHQutCy0LA!5e0!3m2!1sru!2sru!4v1709650510570!5m2!1sru!2sru"
               width="680"
               height="274"
@@ -645,8 +719,12 @@
           <p class="footer__copy-txt">© Game Over, 2022</p>
 
           <div class="footer__copy-block">
-            <a href="#" class="footer__copy-link block__tabs">Design by Anastasia Ilina</a>
-            <a href="mailto:ilina9825@gmail.com" class="footer__copy-link block__tabs"
+            <a href="#" class="footer__copy-link block__tabs"
+              >Design by Anastasia Ilina</a
+            >
+            <a
+              href="mailto:ilina9825@gmail.com"
+              class="footer__copy-link block__tabs"
               >ilina9825@gmail.com</a
             >
           </div>

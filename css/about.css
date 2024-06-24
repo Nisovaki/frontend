@@ -84,6 +84,7 @@
 @media (max-width: 1024px) {
   .about {
     padding-top: 68px;
+    padding-bottom: 40px;
   }
 
   .about__block {
@@ -136,5 +137,22 @@
     bottom: 26%;
     right: 19.5%;
     font-size: 31px;
+  }
+  
+  .about__author {
+    margin-right: 17px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .about__author-text {
+    line-height: 26px;
+  }
+
+  .about__author-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 35px;
+    margin-top: 6px;
   }
 }

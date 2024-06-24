@@ -60,3 +60,24 @@
 .faq__item:nth-child(even):active:after {
   background-image: url(../img/open-active.svg);
 }
+
+@media (max-width: 1024px) {
+  .faq {
+    padding-top: 40px;
+    padding-bottom: 39px;
+  }
+
+  .faq__title {
+    margin-bottom: 26px;
+  }
+
+  .faq__item {
+    font-size: 20px;
+    padding: 11px 20px 12px 29px;
+    margin-bottom: 16.5px;
+  }
+
+  .faq__item-pg {
+    padding: 11px 20px 12px 24px;
+  }
+}

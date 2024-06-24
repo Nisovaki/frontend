@@ -92,6 +92,7 @@
     height: 172px;
     margin-bottom: 30px;
     padding: 116px 36px 3px 18px;
+    font-size: 20px;
   }
 
   .rest__item-glasses {
@@ -106,6 +107,7 @@
   .rest__item-audio {
     margin-top: 52px;
     background-position: 0px -10px;
+    font-size: 18px;
   }
 
   .rest__item-karaoke {
@@ -115,13 +117,66 @@
   .rest__item-movie {
     padding: 83px 23px 11px 19px;
     background-position: 0 -68px;
+    font-size: 18px;
   }
 
   .rest__item-games {
     margin-top: -53px;
+    background-position: -2px -24px;
   }
 
   .rest__br {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .rest {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .rest__title-text {
+    margin-left: -6px;
+  }
+
+  .rest__title {
+    margin-bottom: 30px;
+  }
+
+  .rest__item {
+    width: 334px;
+    height: 200px;
+    padding: 133.5px 40px 3px 30px;
+    margin-bottom: 20px;
+  }
+
+  .rest__item-audio {
+    margin-top: 0;
+    font-size: 18px;
+    background-position: 0px -12px;
+  }
+
+  .rest__item-table {
+    margin-top: 0;
+    background-position: -14px -1px;
+  }
+
+  .rest__item-games {
+    margin-top: 0;
+    background-position: 0px -29px;
+  }
+
+  .rest__item-movie {
+    padding: 131.5px 40px 3px 30px;
+    background-position: 0 -79px;
+  }
+
+  .rest__item-glasses {
+    background-position: -11px -1px;
+  }
+
+  .rest__item-karaoke {
+    background-position: 0px -12px;
   }
 }

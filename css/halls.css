@@ -70,3 +70,35 @@
     line-height: 59px;
   }
 }
+
+@media (max-width: 768px) {
+  .halls {
+    padding-bottom: 64px;
+  }
+
+  .halls__title {
+    margin-bottom: 34px;
+  }
+
+  .halls__item {
+    margin-bottom: 16px;
+  }
+
+  .halls__element {
+    background-size: 334px 200px;
+    width: 334px;
+    height: 200px;
+    font-size: 39px;
+    padding: 63px 88px 33px 90px;
+    line-height: 50px;
+  }
+
+  .halls__element-image2 {
+    padding: 61px 89px 33px 90px;
+  }
+
+  .halls__element-image4 {
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+  }
+}

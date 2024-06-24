@@ -494,3 +494,42 @@
     padding: 13.5px 44px;
   }
 }
+
+@media (max-width: 768px) {
+  .booking {
+    padding-top: 50px;
+  }
+
+  .booking__title {
+    margin-bottom: 39px;
+  }
+
+  .booking__subtitle {
+    margin-bottom: 30px;
+  }
+
+  .booking__btn {
+    font-size: 16px;
+  }
+
+  .booking__btn-1 {
+    padding: 8px 30px 7px 30px;
+  }
+
+  .booking__btn-2 {
+    padding: 4px 25px 4px 25px;
+  }
+
+  .booking__btn-3 {
+    padding: 6px 27px 4px 26px;
+  }
+
+  .booking__btn-4 {
+    padding: 8px 20px 7px 22px;
+  }
+
+  .booking__block-1,
+  .booking__block-2 {
+    margin-bottom: 51px;
+  }
+}
