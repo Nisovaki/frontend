@@ -80,4 +80,24 @@
   .faq__item-pg {
     padding: 11px 20px 12px 24px;
   }
+
+  .faq__item-none {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq {
+    padding-bottom: 23px;
+  }
+
+  .faq__item {
+    font-size: 18px;
+    padding: 11px 65px 12px 59px;
+    margin-bottom: 16.5px;
+  }
+
+  .faq__item-pg {
+    padding: 10px 65px 13px 53px;
+  }
 }

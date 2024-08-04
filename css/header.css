@@ -281,6 +281,10 @@
     margin-bottom: 11px;
   }
 
+  .nav__menu {
+    display: none;
+  }
+
   .nav__menu-burger {
     display: flex;
     flex-direction: column;
